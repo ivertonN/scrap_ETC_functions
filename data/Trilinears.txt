@@ -1,999 +1,999 @@
-Trilinears(X1) =   1 
-Trilinears(X2) =   1/a 
-Trilinears(X3) =   cos A 
-Trilinears(X4) =   sec A 
-Trilinears(X5) =   cos(B - C) 
-Trilinears(X6) =   a 
-Trilinears(X7) =   bc/(b + c - a) 
-Trilinears(X8) =   (b + c - a)/a 
-Trilinears(X9) =   b + c - a 
-Trilinears(X10) =   bc(b + c) 
-Trilinears(X11) =   1 - cos(B - C) 
-Trilinears(X12) =  1 + cos(B - C) 
-Trilinears(X13) =   csc(A + &pi/3) 
-Trilinears(X14) = csc(A - &pi/3) 
-Trilinears(X15) =   sin(A + &pi/3) 
-Trilinears(X16) =   sin(A- &pi/3) 
-Trilinears(X17) =   csc(A + &pi/6) 
-Trilinears(X18) =   csc(A - &pi/6) 
-Trilinears(X19) =   tan A 
-Trilinears(X20) =   cos A - cos B cos C 
-Trilinears(X21) = 1/(cos B + cos C) 
-Trilinears(X22) =  a(b4 + c4 - a4) 
-Trilinears(X23) =   a[b4 + c4 - a4 - b2c2] 
-Trilinears(X24) =   sec A cos 2A 
-Trilinears(X25) =   sin A tan A 
-Trilinears(X26) =   a[b2cos 2B + c2cos 2C - a2cos 2A] 
-Trilinears(X27) = (sec A)/(b + c) 
-Trilinears(X28) = (tan A)/(b + c) 
-Trilinears(X29) = (sec        A)/(cos B + cos C) 
-Trilinears(X30) =   cos A - 2 cos B cos C 
-Trilinears(X31) =   a2 
-Trilinears(X32) =   a3 
-Trilinears(X33) = 1 + sec A 
-Trilinears(X34) =   1 - sec A 
-Trilinears(X35) =   1 + 2 cos A 
-Trilinears(X36) =   1 - 2 cos A 
-Trilinears(X37) = b + c 
-Trilinears(X38) = b2        + c2 
-Trilinears(X39) =   a(b2 + c2) 
-Trilinears(X40) =    cos B + cos C - cos A - 1 
-Trilinears(X41) =   a2(b + c - a) 
-Trilinears(X42) =   a(b + c) 
-Trilinears(X43) =   ab + ac - bc 
-Trilinears(X44) =   b + c - 2a 
-Trilinears(X45) = 2b + 2c -        a 
-Trilinears(X46) =   cos B + cos C - cos A 
-Trilinears(X47) = cos 2A 
-Trilinears(X48) =   tan B + tan C 
-Trilinears(X49) = cos 3A 
-Trilinears(X50) =   sin 3A 
-Trilinears(X51) =   a2cos(B - C) 
-Trilinears(X52) =   cos 2A cos(B - C) 
-Trilinears(X53) =   tan A cos(B - C) 
-Trilinears(X54) =   sec(B - C) 
-Trilinears(X55) =   a(b + c - a) 
-Trilinears(X56) =   a/(b + c - a) 
-Trilinears(X57) =   1/(b + c - a) 
-Trilinears(X58) =   a/(b + c) 
-Trilinears(X59) = 1/[1 - cos(B - C)] 
-Trilinears(X60) = 1/[1 + cos(B - C)] 
-Trilinears(X61) =   sin(A + &pi/6) 
-Trilinears(X62) =   sin(A - &pi/6) 
-Trilinears(X63) =   cot A 
-Trilinears(X64) =   1/(cos A - cos B cos C) 
-Trilinears(X65) =   cos B + cos C 
-Trilinears(X66) =   bc/(b4 + c4 - a4) 
-Trilinears(X67) =   bc/(b4 + c4 - a4 - b2c2) 
-Trilinears(X68) =  cos A sec 2A 
-Trilinears(X69) =   (cos A)/a2 
-Trilinears(X70) =   bc/[b2 cos 2B + c2 cos 2C - a2 cos 2A] 
-Trilinears(X71) = (b + c)        cos A 
-Trilinears(X72) =   (b + c) cot A 
-Trilinears(X73) =   sec B + sec C 
-Trilinears(X74) =   1/(cos A - 2 cos B cos C) 
-Trilinears(X75) =   1/a2 
-Trilinears(X76) =   1/a3 
-Trilinears(X77) =   1/(1 + sec A) 
-Trilinears(X78) =   1/(1 - sec A) 
-Trilinears(X79) =   1/(1 + 2 cos A) 
-Trilinears(X80) =   1/(1 - 2 cos A) 
-Trilinears(X81) = 1/(b + c)        
-Trilinears(X82) =   1/(b2 + c2) 
-Trilinears(X83) = bc/(b2        + c2) 
-Trilinears(X84) =   1/(cos B + cos C - cos A - 1) 
-Trilinears(X85) = b2c2/(b        + c - a) 
-Trilinears(X86) =   bc/(b + c) 
-Trilinears(X87) = 1/(ab + ac        - bc) 
-Trilinears(X88) =   1/(b + c - 2a) 
-Trilinears(X89) = 1/(2b + 2c - a) 
-Trilinears(X90) =   1/(cos B + cos C - cos A) 
-Trilinears(X91) = sec 2A 
-Trilinears(X92) =   csc 2A 
-Trilinears(X93) = sec 3A 
-Trilinears(X94) =  csc 3A 
-Trilinears(X95) = b2c2sec(B - C) 
-Trilinears(X96) =   sec 2A sec(B - C) 
-Trilinears(X97) = cot A        sec(B - C) 
-Trilinears(X98) =   sec(A + &omega) 
-Trilinears(X99) =   bc/(b2 - c2) 
-Trilinears(X100) =   1/(b - c) 
-Trilinears(X101) =   a/(b - c) 
-Trilinears(X102) =   1/[sin B (sec A - sec B) + sin C (sec A - sec C)] 
-Trilinears(X103) =   a/[(a - b) cot C + (a - c) cot B] 
-Trilinears(X104) =   1/(-1 + cos B + cos C) 
-Trilinears(X105) = 1/[b2        + c2 - a(b + c)] 
-Trilinears(X106) =   a/(2a - b - c) 
-Trilinears(X107) =   1/[cos A (sin 2B - sin 2C)] 
-Trilinears(X108) = a/(sec        B - sec C) 
-Trilinears(X109) =   a/(cos B - cos C) 
-Trilinears(X110) =   csc(B - C) 
-Trilinears(X111) =   a/(2a2 - b2 - c2) 
-Trilinears(X112) =   a/(sin 2B - sin 2C) 
-Trilinears(X113) =   sin B sin C [(sin C)/(cos C - 2 cos A cos B) + (sin B)/(cos B - 2 cos A cos C)] 
-Trilinears(X114) =  bc[b sec(B + &omega) + c sec(C + &omega)] 
-Trilinears(X115) =   bc(b2 - c2)2 
-Trilinears(X116) =   bc[(b - c)2(b2 + bc + c2 - ab - ac)] 
-Trilinears(X117) = f(a,b,c)        
-Trilinears(X118) =   g(b,c,a) + g(c,b,a) 
-Trilinears(X119) =   (csc A)(-1 + cos B + cos C)[sin 2B + sin 2C + 2(-1 + cos A)(sin B + sin C)] 
-Trilinears(X120) =   bc[2abc - (b + c)(a2 + (b - c)2)](b2 + c2 - ab -ac) 
-Trilinears(X121) = f(a,b,c)        
-Trilinears(X122) =   (b2 - c2)2(cos A - cos B cos C) cot2A 
-Trilinears(X123) =   (csc A)(sec B - sec C)[(sec A)(sin2B - sin2C) + sin C tan C - sin B tan B] 
-Trilinears(X124) = f(a,b,c)        
-Trilinears(X125) =   cos A sin2(B - C) 
-Trilinears(X126) = f(a,b,c)        
-Trilinears(X127) =   bc(sin 2B - sin 2C)[(b2 - c2)sin 2A - b2sin 2B + c2sin 2C] 
-Trilinears(X128) = f(A,B,C)        
-Trilinears(X129) = f(A,B,C) 
-Trilinears(X130) = f(A,B,C) 
-Trilinears(X131) = f(A,B,C)        
-Trilinears(X132) = f(A,B,C)        
-Trilinears(X133) = (sec A)[(sin 2B - sin 2C)2 + (sin 2A)(sin 2B) + (sin 2A)(sin 2C) - 2(sin 2B)(sin 2C)](2 sin 2A - sin 2B - sin 2C) 
-Trilinears(X134) = f(A,B,C) 
-Trilinears(X135) =   (sec A)[(sin 2B)/(sec 2C - sec 2A) + (sin 2C)/(sec 2A - sec 2B)] 
-Trilinears(X136) = f(A,B,C)        
-Trilinears(X137) = f(A,B,C)        
-Trilinears(X138) = (v        + w) sec A 
-Trilinears(X139) = f(A,B,C)        
-Trilinears(X140) =   2 cos A + cos(B - C) 
-Trilinears(X141) =   bc(b2 + c2) 
-Trilinears(X142) =   b + c - [(b - c)2]/a 
-Trilinears(X143) =   (sec A)[cos(2C - 2A) + cos(2A - 2B)] 
-Trilinears(X144) =   (csc A)(tan B/2 + tan C/2 - tan A/2) 
-Trilinears(X145) =   bc(3a - b - c) 
-Trilinears(X146) = bc(-avw + bwu + cuv) 
-Trilinears(X147) =   bc[a8 + (b2 + c2)a6 - (2b4 + 3b2c2 + 2c4)a4 + (b6 + b4c2 +         b2c4 + c6)a2 - b8 + b6c2 + b2c6 - c8] 
-NA
-Trilinears(X149) = f(a,b,c)        
-Trilinears(X150) = f(a,b,c)        
-Trilinears(X151) = f(a,b,c)        
-Trilinears(X152) = f(a,b,c)        
-Trilinears(X153) = f(a,b,c)        
-Trilinears(X154) =   (cos A - cos B cos C)a2 
-Trilinears(X155) =   (cos A)[cos2B + cos2C - cos2A] 
-Trilinears(X156) = f(a,b,c)        
-Trilinears(X157) = f(a,b,c)        
-Trilinears(X158) = sec2A        
-Trilinears(X159) = f(a,b,c)        
-Trilinears(X160) = f(a,b,c)        
-Trilinears(X161) = f(a,b,c)        
-Trilinears(X162) =   1/(sin 2B - sin 2C) 
-Trilinears(X163) =   (sin 2A)/(sin 2B - sin 2C) 
-Trilinears(X164) = sin        B/2 + sin C/2 - sin A/2 
-Trilinears(X165) =   tan(B/2) + tan(C/2) - tan(A/2) 
-Trilinears(X166) = f(A,B,C)        
-Trilinears(X167) = f(A,B,C)        
-Trilinears(X168) =   sin A - sin B - sin C + 2[cos A/2 + sin(B/2 - A/2) + sin(C/2 - A/2)] 
-Trilinears(X169) =   - (sin A)cos2(A/2) + (sin B)cos2(B/2) + (sin C)cos2(C/2) 
-Trilinears(X170) = f(A,B,C) 
-Trilinears(X171) = a2 + bc 
-Trilinears(X172) = a3        + abc 
-Trilinears(X173) =   cos B/2 + cos C/2 - cos A/2 
-Trilinears(X174) =   sec A/2 
-Trilinears(X175) =   -1 + sec A/2 cos B/2 cos C/2 
-Trilinears(X176) =   1 + sec A/2 cos B/2 cos C/2 
-Trilinears(X177) =   (cos B/2 + cos C/2) sec A/2 
-Trilinears(X178) = (cos B/2 + cos C/2) csc A 
-Trilinears(X179) =   sec4(A/4) 
-Trilinears(X180) = f(A,B,C) 
-Trilinears(X181) = a(b +        c)2/(b + c - a) 
-Trilinears(X182) = cos(A- &omega) 
-Trilinears(X183) =   b2c2cos(A- &omega) 
-Trilinears(X184) = a2cos A 
-Trilinears(X185) =   (cos A)[1 - cos A cos(B - C)] 
-Trilinears(X186) =   4 cos A - sec A 
-Trilinears(X187) =   a(2a2 - b2 - c2) 
-Trilinears(X188) =   csc A/2 
-Trilinears(X189) = bc/(cos B        + cos C - cos A - 1) 
-Trilinears(X190) =   bc/(b - c) 
-Trilinears(X191) =   (b + c - a)(bc + ca + ab) + b3 + c3 - a3 
-Trilinears(X192) = bc(ca +        ab - bc) 
-Trilinears(X193) = (csc        A)(cot B + cot C - cot A) 
-Trilinears(X194) =   bc[a2b2 + a2c2 - b2c2] 
-Trilinears(X195) =   (cos A)(v + w - u) 
-Trilinears(X196) = f(A,B,C) 
-Trilinears(X197) =   a[-a2tan A/2 + b2tan B/2 + c2tan C/2] 
-Trilinears(X198) = f(A,B,C) 
-Trilinears(X199) = f(a,b,c) 
-Trilinears(X200) =   cot2(A/2) 
-Trilinears(X201) = (cos A)[1        + cos(B - C)] 
-Trilinears(X202) = f(A,B,C)        
-Trilinears(X203) = f(A,B,C)        
-Trilinears(X204) = f(A,B,C)        
-Trilinears(X205) = f(a,b,c)        
-Trilinears(X206) =   a3(b4 + c4 - a4) 
-Trilinears(X207) = f(A,B,C)        
-Trilinears(X208) = f(A,B,C)        
-Trilinears(X209) = f(A,B,C)        
-Trilinears(X210) = (b + c)(b + c - a) 
-Trilinears(X211) =   sin(A + &omega)[cos B sin(B + &omega) + cos C sin(C + &omega) - cos A sin(A + &omega)] 
-Trilinears(X212) = (cos A)(1        + cos A) 
-Trilinears(X213) = (b + c)a2 
-Trilinears(X214) =   (b + c - 2a)(b2 + c2 - a2 - bc) 
-Trilinears(X215) = f(A,B,C)        
-Trilinears(X216) =   sin 2A cos(B - C) 
-Trilinears(X217) =   (sin3A) cos A cos(B - C) 
-Trilinears(X218) = f(A,B,C)        
-Trilinears(X219) =   cos A cot A/2 
-Trilinears(X220) =   a(b + c - a)2 
-Trilinears(X221) =   (sin2A/2)(cos B + cos C - cos A - 1) 
-Trilinears(X222) = cos A tan        A/2 
-Trilinears(X223) =   (tan A/2)(cos B + cos C - cos A - 1)<br>Trilinears  sec B + sec C - sec A + 1 
-Trilinears(X224) =   [cot B cos2(B/2) + cot C cos2(C/2) - cot A cos2(A/2)]cot A<br>Trilinears  (b^2 + c^2 - a^2) (a^4 - b^4 - c^4 - 2 a^3 (b + c) - 2 a^2 b c + 2 a (b^3 + c^3) + 2 b^2 c^2) 
-Trilinears(X225) =   (sec A)(cos B + cos C) 
-Trilinears(X226) =    (csc A)(cos B + cos C) 
-Trilinears(X227) = f(a,b,c)        
-Trilinears(X228) = (sin        2A)(sin B + sin C) 
-Trilinears(X229) = f(a,b,c)        
-Trilinears(X230) =   bc[a2(2a2 - b2 - c2) +         (b2 - c2)2] 
-Trilinears(X231) = f(a,b,c)        
-Trilinears(X232) = tan A        cos(A + &omega) 
-Trilinears(X233) =   [b cos(C - A) + c cos(B - A)]cos(B - C) 
-Trilinears(X234) = f(A,B,C)        
-Trilinears(X235) =   sec A - cos(B - C) 
-Trilinears(X236) = f(A,B,C)        
-Trilinears(X237) = a2cos(A        + &omega) 
-Trilinears(X238) = a2        - bc 
-Trilinears(X239) =   bc(a2 - bc) 
-Trilinears(X240) = sec A        cos(A + &omega) 
-Trilinears(X241) =   cos4B/2 - [cos2(A/2)][cos2(B/2)        +cos2(C/2)] + cos4(C/2) 
-Trilinears(X242) = f(A,B,C)        
-Trilinears(X243) =   (sec A)(cos2A - cos B cos C) 
-Trilinears(X244) =   (b - c)2 
-Trilinears(X245) = f(A,B,C)        
-Trilinears(X246) = f(A,B,C)        
-Trilinears(X247) = f(A,B,C)        
-Trilinears(X248) = sin 2A        sec(A + &omega) 
-Trilinears(X249) = (csc        A)csc2(B - C) 
-Trilinears(X250) = (sec        A)csc2(B - C) 
-Trilinears(X251) = a2csc(A        + &omega) 
-Trilinears(X252) = f(A,B,C) 
-Trilinears(X253) = f(A,B,C) 
-Trilinears(X254) =   (sec A)/(cos2B + cos2C - cos2A) 
-Trilinears(X255) =   cos2A 
-Trilinears(X256) = 1/(a2 + bc) 
-Trilinears(X257) = 1/(a3        + abc) 
-Trilinears(X258) =   1/(cos B/2 + cos C/2 - cos A/2) 
-Trilinears(X259) =   cos A/2 
-Trilinears(X260) = f(A,B,C)        
-Trilinears(X261) = f(A,B,C)        
-Trilinears(X262) =   sec(A - &omega) 
-Trilinears(X263) =   a2sec(A - &omega) 
-Trilinears(X264) =   csc A csc 2A 
-Trilinears(X265) =   sin 2A csc 3A 
-Trilinears(X266) =   sin A/2 
-Trilinears(X267) =   1/[b3 + c3 - a3 + (b + c - a)(bc + ca + ab)] 
-Trilinears(X268) = f(A,B,C)        
-Trilinears(X269) =   tan2A/2 
-Trilinears(X270) = (sec        A)/[1 + cos(B - C)] 
-Trilinears(X271) = f(A,B,C)        
-Trilinears(X272) = f(A,B,C)        
-Trilinears(X273) = sec A        sec2(A/2) 
-Trilinears(X274) =   b2c2/(b + c) 
-Trilinears(X275) = csc 2A sec(B - C) 
-Trilinears(X276) = csc3A        sec A sec(B - C) 
-Trilinears(X277) = f(A,B,C)        
-Trilinears(X278) =   sec A tan A/2 
-Trilinears(X279) =   csc A tan2A/2 
-NA
-Trilinears(X281) =   sec A cot A/2 
-Trilinears(X282) =   (cot A/2)/(-1 - cos A + cos B + cos C) 
-Trilinears(X283) =   (cos A)/(cos B + cos C) 
-Trilinears(X284) =   (sin A)/(cos B + cos C) 
-Trilinears(X285) = f(A,B,C)        
-Trilinears(X286) = (csc        2A)/(sin B + sin C) 
-Trilinears(X287) =   cot A sec(A + &omega) 
-Trilinears(X288) = f(A,B,C)        
-Trilinears(X289) =  (sin A/2)/(cos B/2 + cos C/2 - cos A/2) 
-Trilinears(X290) =   csc2A sec(A + &omega) 
-Trilinears(X291) =   1/(a2 - bc) 
-Trilinears(X292) = a/(a2        - bc) 
-Trilinears(X293) = cos A sec(A + &omega) 
-Trilinears(X294) = f(a,b,c)        
-Trilinears(X295) = (cos        A)/(a2 - bc) 
-Trilinears(X296) = f(A,B,C) 
-Trilinears(X297) =   csc 2A cos(A + &omega) 
-Trilinears(X298) = csc2A        sin(A + &pi/3) 
-Trilinears(X299) = csc2A        sin(A - &pi/3) 
-Trilinears(X300) = csc2A        csc(A + &pi/3) 
-Trilinears(X301) = csc2A        csc(A - &pi/3) 
-Trilinears(X302) = csc2A        sin(A + &pi/6) 
-Trilinears(X303) = csc2A        sin(A - &pi/6) 
-Trilinears(X304) =   (cot A)csc2A 
-Trilinears(X305) = b4c4cos        A 
-Trilinears(X306) = (b2c2)(b        + c)cos A 
-Trilinears(X307) =   b2c2(b + c)(cos A)/(b + c - a)<br>Barycentrics  (csc A) (sec B + sec C) 
-Trilinears(X308) =   b3c3/(b2 + c2) 
-Trilinears(X309) =   (csc2A)/(-1 - cos A + cos B + cos C) 
-Trilinears(X310) = b3c3/(b        + c) 
-Trilinears(X311) =   csc2A cos(B - C) 
-Trilinears(X312) =   (b + c - a)b2c2 
-Trilinears(X313) = (b +        c)b3c3 
-Trilinears(X314) = f(a,b,c)        
-Trilinears(X315) = bc(b4        + c4 - a4) 
-Trilinears(X316) = f(a,b,c) 
-Trilinears(X317) =   sec A cos 2A csc2A 
-Trilinears(X318) =   (1 + sec A)/a2 
-Trilinears(X319) =   (1 + 2 cos A)/a2 
-Trilinears(X320) =   (1 - 2 cos A)/a2 
-Trilinears(X321) =   (b + c)b2c2 
-Trilinears(X322) = f(A,B,C)        
-Trilinears(X323) =   sin 3A csc2A 
-Trilinears(X324) = bc sec A cos(B - C) 
-Trilinears(X325) =   csc2A 
-Trilinears(X326) =   cot2A 
-Trilinears(X327) = csc2A        sec(A - &omega) 
-Trilinears(X328) = cot A        csc 3A 
-Trilinears(X329) =   ( -1 - cos A + cos B + cos C)(csc A) 
-Trilinears(X330) = bc/(ab +        ac - bc) 
-Trilinears(X331) = sec2(A/2)        csc(2A) 
-Trilinears(X332) =   (cot A        csc A)/(cos B + cos C) 
-Trilinears(X333) = bc(b + c -        a)/(b + c) 
-Trilinears(X334) = b2c2/(a2        - bc) 
-Trilinears(X335) = bc/(a2        - bc) 
-Trilinears(X336) = csc A        cot A sec(A + &omega) 
-Trilinears(X337) = (csc A        cot A)/(a2 - bc) 
-Trilinears(X338) = (b2        - c2)2/a3 
-Trilinears(X339) = (b2        - c2)2(cos A)/a4 
-Trilinears(X340) =   sec A sin 3A csc3A 
-Trilinears(X341) = b2c2(b + c - a)2 
-Trilinears(X342) = f(A,B,C)        
-Trilinears(X343) = cot A cos(B - C) 
-Trilinears(X344) =   (csc2A/2)[cos4(B/2) + cos4(C/2) -        cos4(A/2)] 
-Trilinears(X345) =   (csc A)/(1 - sec A) 
-Trilinears(X346) =   bc(b + c - a)2 
-Trilinears(X347) = f(A,B,C)        
-Trilinears(X348) =   cot A sec2(A/2) 
-Trilinears(X349) = (cos B +        cos C)csc3A 
-Trilinears(X350) = (a2        - bc)b2c2 
-Trilinears(X351) = f(a,b,c) 
-Trilinears(X352) = f(a,b,c) 
-Trilinears(X353) = f(a,b,c) 
-Trilinears(X354) =   (b - c)2 - ab - ac 
-Trilinears(X355) =   a cos A - (b + c)cos(B - C) 
-Trilinears(X356) =   cos A/3 + 2 cos B/3 cos C/3 
-Trilinears(X357) = sec A/3 
-Trilinears(X358) =   cos A/3 
-Trilinears(X359) =   a/A 
-Trilinears(X360) =   A/a 
-Trilinears(X361) = csc B/2 +        csc C/2 - csc A/2 
-NA
-Trilinears(X363) =   b/(1 + sin B/2) + c/(1 + sin C/2) - a/(1 + sin A/2) 
-Trilinears(X364) =   b1/2 + c1/2 -        a1/2 
-Trilinears(X365) = a1/2 
-Trilinears(X366) = a-1/2        
-Trilinears(X367) = b1/2        + c1/2 
-NA
-Trilinears(X369) = x 
-NA
-Trilinears(X371) =  cos(A - &pi/4) 
-Trilinears(X372) =  cos(A + &pi/4) 
-Trilinears(X373) = f(a,b,c)        
-Trilinears(X374) = f(a,b,c) 
-Trilinears(X375) = f(a,b,c)        
-Trilinears(X376) =   5 cos A - cos(B - C) 
-Trilinears(X377) = f(a,b,c) 
-Trilinears(X378) = sec A + 2 cos A 
-Trilinears(X379) = f(a,b,c) 
-Trilinears(X380) = f(a,b,c)        
-Trilinears(X381) =   2 cos(B - C) - cos A 
-Trilinears(X382) =   cos A - 4 cos B cos C 
-Trilinears(X383) = f(A,B,C) 
-Trilinears(X384) =   bc(a4 + b2c2) 
-Trilinears(X385) =   bc(a4 - b2c2) 
-Trilinears(X386) =   a(b2 + c2 + bc + ca + ab) 
-NA
-Trilinears(X388) =   bc[a2 + (b + c)2]/(b + c - a)<br>Trilinears  1 + cos B cos C 
-Trilinears(X389) =   cos A - cos 2A cos(B - C) 
-NA
-Trilinears(X391) =   bc(3a + b + c)(b + c - a) 
-Trilinears(X392) =   (b + c)(b2 + c2 - a2) + 4abc 
-Trilinears(X393) =   bc tan2A 
-Trilinears(X394) =   cos A cot A 
-Trilinears(X395) =  cos(B - C) + 2 cos(A + &pi/3) 
-Trilinears(X396) =  cos(B - C) + 2 cos(A - &pi/3) 
-Trilinears(X397) =   cos(B - C) - 2 cos(A + &pi/3) 
-Trilinears(X398) =   cos(B - C) - 2 cos(A - &pi/3) 
-Trilinears(X399) =   5 cos A - 4 cos B cos C - 8 sin B sin C cos2A 
-Trilinears(X400) = csc4(A/4) 
-Trilinears(X401) =   [sin 2B sin 2C - sin2(2A)](csc A) 
-Trilinears(X402) = f(a,b,c) 
-Trilinears(X403) = f(A,B,C)        
-Trilinears(X404) = f(a,b,c)        
-Trilinears(X405) =   bc(a + b + c) + abc cos A 
-Trilinears(X406) = f(a,b,c)        
-Trilinears(X407) = (v +        w)sec A 
-Trilinears(X408) = (v + w)cos A 
-Trilinears(X409) =   u2 + vw 
-Trilinears(X410) = u2 + vw 
-Trilinears(X411) = (1/v)2        + (1/w)2 - (1/u)2 
-Trilinears(X412) = (1/v)2        + (1/w)2 - (1/u)2 
-Trilinears(X413) = u3(v2        + w2 - vw) 
-Trilinears(X414) = u3(v2        + w2 - vw) 
-Trilinears(X415) = (u2        - vw)sec A 
-Trilinears(X416) = (u2        - vw)cos A 
-Trilinears(X417) = f(A,B,C)        
-Trilinears(X418) =   (cos A)(csc 2B + csc 2C) 
-Trilinears(X419) = (u2        - vw)sec A 
-Trilinears(X420) = (u2        - vw)sec A 
-Trilinears(X421) = (u2        - vw)sec A 
-Trilinears(X422) = (u2        - vw)sec A 
-Trilinears(X423) = (u2        - vw)sec A 
-Trilinears(X424) = (u2        - vw)sec A 
-Trilinears(X425) = (u2        - vw)sec A 
-Trilinears(X426) = (v2 + w2)cos A 
-Trilinears(X427) =   sec A + cos(B - C)<br>Barycentrics  tan A + tan &omega 
-Trilinears(X428) =   3 sec A - csc A tan &omega 
-Trilinears(X429) = (v + w)sec A 
-Trilinears(X430) = (v + w)sec A 
-Trilinears(X431) = (v + w)sec A 
-Trilinears(X432) = (v2        + w2)sec A 
-Trilinears(X433) = (v2        + w2)sec A 
-Trilinears(X434) = (v2        + w2)sec A 
-Trilinears(X435) = (v2        + w2)sec A 
-Trilinears(X436) = (u2 + vw)sec A 
-Trilinears(X437) = (u2        + vw)sec A 
-Trilinears(X438) = (u2 + vw)csc A 
-Trilinears(X439) = au2        
-Trilinears(X440) = bc(v + w)        
-Trilinears(X441) = bc(v +        w) 
-Trilinears(X442) = bc(v + w) 
-Trilinears(X443) = bc(v + w) 
-Trilinears(X444) = (v        + w)tan A 
-Trilinears(X445) = (v +        w)csc 2A 
-Trilinears(X446) = u(v2        + w2) 
-Trilinears(X447) = bc(u2        - vw) 
-Trilinears(X448) = bc(u2        - vw) 
-Trilinears(X449) = bc(u2        - vw) 
-Trilinears(X450) =   (sec A)[cos4A - (cos B cos C)2] 
-Trilinears(X451) = u sec A 
-Trilinears(X452) = u csc A 
-Trilinears(X453) = f(A,B,C) 
-Trilinears(X454) = u2sec        A 
-Trilinears(X455) = u2sec        A 
-Trilinears(X456) = u2sec        A 
-Trilinears(X457) = u2sec        A 
-Trilinears(X458) = u csc 2A 
-Trilinears(X459) =   (sec A)/(tan B + tan C - tan A) 
-Trilinears(X460) =   (sec A)[a2(2a2 - b2 - c2) +         (b2 - c2)2] 
-Trilinears(X461) = u tan A 
-Trilinears(X462) = u tan A 
-Trilinears(X463) = u tan A 
-Trilinears(X464) = u cot A 
-Trilinears(X465) = u cot A 
-Trilinears(X466) = u        cot A 
-Trilinears(X467) = u csc 2A 
-Trilinears(X468) =   (sec A)(cot B + cot C - 2 cot A) 
-Trilinears(X469) = u csc 2A 
-Trilinears(X470) = sin(A + &pi/3) csc 2A 
-Trilinears(X471) = sin(A - &pi/3) csc 2A 
-Trilinears(X472) = cos(A + &pi/3) csc 2A 
-Trilinears(X473) = cos(A - &pi/3) csc 2A 
-Trilinears(X474) = cos        A - (a + b + c)/a 
-Trilinears(X475) = sec A - (a + b + c)/a 
-Trilinears(X476) =   1/[(1 + 2 cos 2A) sin(B - C)] 
-Trilinears(X477) =   1/[4 cos A + cos(A - 2B) + cos(A - 2C) - 3 cos(B - C)] 
-Trilinears(X478) =  a[a4 - 2abc(b + c - a) - (b2 - c2)2]/(b + c - a) 
-Trilinears(X479) =   (tan A/2 sec A/2)2 
-Trilinears(X480) =   (cot A/2 cos A/2)2 
-Trilinears(X481) =   1 - 2 sec A/2 cos B/2 cos C/2 
-Trilinears(X482) =   1 + 2 sec A/2 cos B/2 cos C/2 
-Trilinears(X483) =   sec2A/4 
-Trilinears(X484) = 1 + 2(cos A - cos B        - cos C) 
-Trilinears(X485) =   sec(A - &pi/4) 
-Trilinears(X486) =   sec(A + &pi/4) 
-Trilinears(X487) = f(A,B,C)        
-Trilinears(X488) = f(A,B,C)        
-Trilinears(X489) = f(A,B,C)        
-Trilinears(X490) = f(A,B,C)        
-Trilinears(X491) = f(A,B,C)        
-Trilinears(X492) = f(A,B,C)        
-Trilinears(X493) =  1/(sin A + sin B sin C) 
-Trilinears(X494) =  1/(sin A - sin B sin C) 
-Trilinears(X495) =   2 + cos(B - C) 
-Trilinears(X496) =   2 - cos(B - C) 
-Trilinears(X497) =   1 - cos B cos C 
-Trilinears(X498) =   1 + 2 sin B sin C 
-Trilinears(X499) =   1 - 2 sin B sin C 
-Trilinears(X500) =   a(b2 +c2 - a2 + bc)[2abc + (b +        c)(a2 - (b - c)2)] 
-Trilinears(X501) = f(a,b,c)        
-Trilinears(X502) = f(a,b,c)        
-Trilinears(X503) = f(A,B,C) 
-Trilinears(X504) = f(A,B,C) 
-Trilinears(X505) = f(A,B,C) 
-Trilinears(X506) = f(A,B,C)        
-Trilinears(X507) = f(A,B,C) 
-Trilinears(X508) = a-1/2sec(A/2) 
-Trilinears(X509) =   (tan A/2)1/2 
-Trilinears(X510) =   b3/2 + c3/2 - a3/2 
-Trilinears(X511) =   cos(A +  &omega) 
-Trilinears(X512) =   a(b2 - c2) 
-Trilinears(X513) =   b - c 
-Trilinears(X514) =   (b - c)/a 
-Trilinears(X515) =   (b + c)sec A - b sec B - c sec C  
-Trilinears(X516) =   bc[(a - b) cot C + (a - c) cot B] 
-Trilinears(X517) =   -1 + cos B + cos C 
-Trilinears(X518) = f(a,b,c)        
-Trilinears(X519) =   (2a - b - c)/a 
-Trilinears(X520) =   (cos A)(sin 2B - sin 2C) 
-Trilinears(X521) =   (sec B - sec C)(csc A) 
-Trilinears(X522) =   (cos B - cos C)(csc A) 
-Trilinears(X523) =    sin(B -C) 
-Trilinears(X524) =   (2a2 - b2 - c2)/a 
-Trilinears(X525) =   (b cos B - c cos C)/a 
-Trilinears(X526) =   (1 + 2 cos 2A)sin(B - C) 
-Trilinears(X527) =   (2ax - by - cz)/a, where x = x(a,b,c) = 1/[a(b + c - a)], y = x(b,c,a), z = x(c,a,b)<br>Barycentrics  2a^2 - a(b + c) - (b - c)^2 
-NA
-Trilinears(X529) = f(a,b,c)        
-Trilinears(X530) =   (2ax - by - cz)/a 
-Trilinears(X531) =   (2ax - by - cz)/a 
-Trilinears(X532) = f(a,b,c)        
-Trilinears(X533) = f(a,b,c)        
-Trilinears(X534) = f(a,b,c)        
-Trilinears(X535) = f(a,b,c)        
-Trilinears(X536) =   (2ax - by - cz)/a, where x = x(a,b,c) = b + c, y = x(b,c,a), z = x(c,a,b)<br>Barycentrics  2bc - ca - ab 
-Trilinears(X537) = f(a,b,c)        
-Trilinears(X538) = f(a,b,c)        
-Trilinears(X539) = f(a,b,c)        
-Trilinears(X540) = f(a,b,c)        
-Trilinears(X541) = f(a,b,c)        
-Trilinears(X542) =   (2ax - by - cz)/a 
-Trilinears(X543) =   (2ax - by - cz)/a, x = x(a,b,c) = bc/(b2 - c2), where x 
-Trilinears(X544) = f(a,b,c)        
-Trilinears(X545) = f(a,b,c)        
-Trilinears(X546) =   3 cos(B - C) - 2 cos A 
-Trilinears(X547) =   5 cos(B - C) + 2 cosA 
-Trilinears(X548) =   - cos(B - C) + 6 cos A 
-Trilinears(X549) =   cos(B - C) + 4 cosA 
-Trilinears(X550) =   - cos(B - C) + 4 cos A 
-Trilinears(X551) =   (4a + b + c)/a 
-Trilinears(X552) =   1/[a(b + c - a)(b + c)2] 
-Trilinears(X553) =   bc(2a + b + c)/(b + c - a) 
-Trilinears(X554) = sec(A/2) csc(A/2 + &pi/3) 
-Trilinears(X555) =   sec3(A/2) 
-Trilinears(X556) = csc A csc A/2 
-Trilinears(X557) =   sec A/2 cot A/4 
-Trilinears(X558) =   sec A/2 tan A/4 
-Trilinears(X559) = (sec A/2)        sin(A/2 + &pi/3) 
-Trilinears(X560) =   a4 
-Trilinears(X561) =   a - 4 
-Trilinears(X562) = csc A tan 3A 
-Trilinears(X563) =   sin 4A 
-Trilinears(X564) =   cos(2B - 2C) 
-Trilinears(X565) =   cos(3B - 3C) 
-Trilinears(X566) =  f(A,B,C)        
-Trilinears(X567) =   cos(B - C) + 2 cos(C - A)cos(A - B) 
-Trilinears(X568) =   sin A + cos A cot D/2, where where cot D/2 = (6R2 - a2 - b2 - c2)/(4*area) and R = abc/(4*area)<br>Trilinears  a[3*R2(b2 + c2 - a2) + a2b2 + a2c2 - b4 - c4], where R =        abc/(4*area) (Wimalasiri Perera, August 29, 2011)<br>Trilinears  cos A - 2 cos 2A cos(B - C) 
-Trilinears(X569) =   sin A + cot D/2 cos A 
-Trilinears(X570) =   sin A + sin 2A cos(B - C) 
-NA
-Trilinears(X572) =  f(A,B,C)        
-Trilinears(X573) =   cos(A + U) 
-Trilinears(X574) =   sin A + cot D/2 cos A,  where cot(D/2) = 12*area/(a2 + b2 + c2)<br>Trilinears  a(a2 - 2b2 - 2c2) 
-Trilinears(X575) =   sin A + cot D/2 cos A, where cot(D/2) = (a2 + b2 + c2)/(12*area)<br>Trilinears  3 sin A + cos A cot &omega 
-Trilinears(X576) =   sin A + cot(D/2) cos A, where cot(D/2) = - (a2 + b2 + c2)/(12*area)<br>Trilinears  3 sin A - cos A cot &omega 
-Trilinears(X577) =   sin A cos2A 
-Trilinears(X578) =   sin A + cot D/2 cos A, where cot(D/2) = (a2b2c2 cos A cos B cos C)/[8*(area)3]<br>Trilinears  cos A + sin A (tan A + tan B + tan C) 
-Trilinears(X579) =         f(a,b,c) 
-Trilinears(X580) =         f(A,B,C) 
-Trilinears(X581) =         f(A,B,C) 
-Trilinears(X582) =         f(A,B,C) 
-Trilinears(X583) =         f(a,b,c) 
-Trilinears(X584) =         f(a,b,c) 
-Trilinears(X585) =  f(a,b,c)        
-Trilinears(X586) =  f(a,b,c)        
-Trilinears(X587) =         f(a,b,c) 
-Trilinears(X588) =  f(a,b,c) 
-Trilinears(X589) =  f(a,b,c) 
-Trilinears(X590) =   (a2 + 4*area(ABC))/a 
-NA
-Trilinears(X592) =  f(A,B,C)        
-Trilinears(X593) =  a/(b +        c)2 
-Trilinears(X594) =  (b +        c)2/a 
-Trilinears(X595) =   r + R*(cos 2A - 1) 
-Trilinears(X596) =         1/[a(a2 + ab + ac - bc)] 
-Trilinears(X597) =         (4a2 + b2 + c2)/a 
-Trilinears(X598) =         bc/(a2 - 2b2 - 2c2) 
-Trilinears(X599) =         bc(a2 - 2b2 - 2c2) 
-Trilinears(X601) =         sin2A + cos A 
-Trilinears(X602) =         sin2A - cos A 
-Trilinears(X603) =   cos2A - cos A 
-Trilinears(X604) =   a(1 - cos A) 
-Trilinears(X605) =         a(1 + sin A) 
-Trilinears(X606) =         a(1 - sin A) 
-Trilinears(X607) =   a(1 + sec A) 
-Trilinears(X608) =  a(1 -        sec A) 
-Trilinears(X609) =  area        + a2 sin A 
-Trilinears(X610) =   area - a2 cot A 
-Trilinears(X611) =   D + sin A 
-Trilinears(X612) =   a2 + b2 + c2 + 2bc  (M. Iliev, 5/13/2007)<br>Trilinears  bc + S<sub>&omega</sub> 
-Trilinears(X613) =  W - sin A 
-Trilinears(X614) =   a2 + b2 + c2 - 2bc  (M. Iliev, 5/13/07)<br>Trilinears  bc - S<sub>&omega</sub> 
-Trilinears(X615) =   (a2 - 4*area)/a 
-Trilinears(X616) =  f(a,b,c)        
-Trilinears(X617) =  f(a,b,c)        
-Trilinears(X618) =  f(a,b,c)        
-Trilinears(X619) =  f(a,b,c)        
-Trilinears(X620) =   [4S<sub>A</sub>a2 - (b4 + c4)]/a 
-Trilinears(X621) =  f(a,b,c)        
-Trilinears(X622) =  f(a,b,c)        
-Trilinears(X623) =  f(a,b,c)        
-Trilinears(X624) =  f(a,b,c)        
-Trilinears(X625) =   [2(b4 + c4 - b2c2) -         a2(b2 + c2)]/a 
-Trilinears(X626) =         (b4 + c4)/a 
-Trilinears(X627) =  f(a,b,c)        
-Trilinears(X628) =  f(a,b,c)        
-Trilinears(X629) =  f(a,b,c)        
-Trilinears(X630) =  f(a,b,c)        
-Trilinears(X631) =   2 cos A + cos B cos C 
-Trilinears(X632) =   (6S<sub>B</sub>S<sub>C</sub> + 7S<sub>A</sub>a2)/a<br>Trilinears  7 cos A + 6 cos B cos C 
-Trilinears(X633) =  f(a,b,c)        
-Trilinears(X634) =  f(a,b,c)        
-Trilinears(X635) =  f(a,b,c)        
-Trilinears(X636) =  f(a,b,c)        
-Trilinears(X637) =         f(a,b,c) 
-Trilinears(X638) =         f(a,b,c) 
-Trilinears(X639) =         f(a,b,c) 
-Trilinears(X640) =         f(a,b,c) 
-Trilinears(X641) =         f(a,b,c) 
-Trilinears(X642) =         f(a,b,c) 
-Trilinears(X643) =         f(a,b,c) 
-Trilinears(X644) =         f(a,b,c) 
-Trilinears(X645) =         f(a,b,c) 
-Trilinears(X646) =         f(a,b,c) 
-Trilinears(X647) =   a(b2 - c2)(b2 + c2 - a2) 
-Trilinears(X648) =   1/[a(b2 - c2)(b2 + c2 - a2)]<br>Trilinears   csc 2A csc(B - C) 
-Trilinears(X649) =   a(b - c) 
-Trilinears(X650) =   cos B - cos C 
-Trilinears(X651) =   1/(cos B - cos C) 
-Trilinears(X652) =  sec B -        sec C 
-Trilinears(X653) =   1/(sec B - sec C) 
-Trilinears(X654) =   cos(A - B) - cos(C - A) 
-Trilinears(X655) =   1/[cos(A - B) - cos(C- A)] 
-Trilinears(X656) =   tan B - tan C 
-Trilinears(X657) =   (1 + cos A)(cos B - cos C) 
-Trilinears(X658) =   1/[(1 + cos A)(cos B - cos C)] 
-NA
-Trilinears(X660) =   1/[(a2 - bc)(b - c)] 
-Trilinears(X661) =   cot B - cot C 
-Trilinears(X662) =   1/(cot B - cot C) 
-Trilinears(X663) =   a(b - c)(b + c - a) 
-Trilinears(X664) =   1/[a(b - c)(b + c - a)] 
-Trilinears(X665) =  f(a,b,c)        
-Trilinears(X666) =         f(a,b,c) 
-Trilinears(X667) =   a2(b - c) 
-Trilinears(X668) =   1/[a2(b - c)] 
-Trilinears(X669) =   a3(b2 - c2) 
-Trilinears(X670) =   1/[a3(b2 - c2)] 
-Trilinears(X671) =  1/[a(2a2 - b2 - c2)] 
-Trilinears(X672) =   a[b2 + c2 - a(b + c)] 
-Trilinears(X673) =         f(a,b,c) 
-Trilinears(X674) =         f(a,b,c) 
-Trilinears(X675) =         f(a,b,c) 
-Trilinears(X676) =         f(a,b,c) 
-Trilinears(X677) =         f(a,b,c) 
-Trilinears(X678) =  f(a,b,c)        
-Trilinears(X679) =         f(a,b,c) 
-Trilinears(X680) =         f(A,B,C)
-Trilinears(X681) =         f(A,B,C)
-Trilinears(X682) =  f(A,B,C)        
-Trilinears(X683) =         f(A,B,C)
-Trilinears(X684) =  f(A,B,C)        
-Trilinears(X685) =         f(A,B,C)
-Trilinears(X686) =         f(A,B,C) 
-Trilinears(X687) =         f(A,B,C)
-Trilinears(X688) =  f(a,b,c)        
-Trilinears(X689) =   1/[a3(b4 - c4)] 
-Trilinears(X690) =   bc(b2 - c2)(2a2 - b2 - c2) 
-Trilinears(X691) =   a/[(b2 - c2)(2a2 - b2 - c2)] 
-Trilinears(X692) =   a2/(b - c) 
-Trilinears(X693) =   (b - c)/a2 
-Trilinears(X694) =   a/(a4 - b2c2) 
-Trilinears(X695) =   a/(a4 + b2c2) 
-Trilinears(X696) =  f(a,b,c)        
-Trilinears(X697) =  f(a,b,c)        
-Trilinears(X698) =  f(a,b,c)        
-Trilinears(X699) =  f(a,b,c)        
-Trilinears(X700) =  f(a,b,c)        
-Trilinears(X701) =  f(a,b,c)        
-Trilinears(X702) =  f(a,b,c)        
-Trilinears(X703) =  f(a,b,c)        
-Trilinears(X704) =  f(a,b,c)        
-Trilinears(X705) =  f(a,b,c)        
-Trilinears(X706) =  f(a,b,c)        
-Trilinears(X707) =  f(a,b,c)        
-Trilinears(X708) =  f(a,b,c)        
-Trilinears(X709) =  f(a,b,c)        
-Trilinears(X710) =  f(a,b,c)        
-Trilinears(X711) =  f(a,b,c)        
-Trilinears(X712) =  f(a,b,c)        
-Trilinears(X713) =  f(a,b,c)        
-Trilinears(X714) =  f(a,b,c)        
-Trilinears(X715) =  f(a,b,c)        
-Trilinears(X716) =  f(a,b,c)        
-Trilinears(X717) =  f(a,b,c)        
-Trilinears(X718) =  f(a,b,c)        
-Trilinears(X719) =  f(a,b,c)        
-Trilinears(X720) =  f(a,b,c)        
-Trilinears(X721) =  f(a,b,c)        
-Trilinears(X722) =  f(a,b,c)        
-Trilinears(X723) =  f(a,b,c)        
-Trilinears(X724) =  f(a,b,c)        
-Trilinears(X725) =  f(a,b,c)        
-Trilinears(X726) =  f(a,b,c)        
-Trilinears(X727) =  f(a,b,c)        
-Trilinears(X728) =         f(a,b,c) 
-Trilinears(X729) =   1/[a-3(b0 + c0) - a -1(b-2 + c -2)]<br>Trilinears  a/(2b^2c^2 - a^2b^2 - a^2c^2) 
-Trilinears(X730) =  f(a,b,c)        
-Trilinears(X731) =  f(a,b,c)        
-Trilinears(X732) =  f(a,b,c)        
-Trilinears(X733) =  f(a,b,c) 
-Trilinears(X734) =  f(a,b,c)        
-Trilinears(X735) =  f(a,b,c)        
-Trilinears(X736) =  f(a,b,c)        
-Trilinears(X737) =  f(a,b,c)        
-Trilinears(X738) =         f(a,b,c) 
-Trilinears(X739) =   1/[a-2(b0 + c0) - a -1(b        -1 + c -1)] 
-Trilinears(X740) =   a -2(b1 + c1) - a0(b -1 + c -1) 
-Trilinears(X741) =  f(a,b,c)        
-Trilinears(X742) =  f(a,b,c)        
-Trilinears(X743) =  f(a,b,c)        
-Trilinears(X744) =  f(a,b,c)        
-Trilinears(X745) =  f(a,b,c)        
-Trilinears(X746) =  f(a,b,c)        
-Trilinears(X747) =  f(a,b,c)        
-Trilinears(X748) =         a2 - 2bc 
-Trilinears(X749) =         1/(a2 - 2bc) 
-Trilinears(X750) =         a2 + 2bc 
-Trilinears(X751) =         1/(a2 + 2bc) 
-Trilinears(X752) =   a -1(b3 + c3) - a2(b0 + c0) 
-Trilinears(X753) =  f(a,b,c)        
-Trilinears(X754) =  f(a,b,c)        
-Trilinears(X755) =  f(a,b,c)        
-Trilinears(X756) =  (b +        c)2 
-Trilinears(X757) =  (b + c)        -2 
-Trilinears(X758) =   a0(b3 + c3) - a2(b1 + c1)<br>Trilinears  (b + c) cot A - b cot B - c cot C 
-Trilinears(X759) =  f(a,b,c)        
-Trilinears(X760) =  f(a,b,c)        
-Trilinears(X761) =  f(a,b,c)        
-Trilinears(X762) =  (b +        c)3 
-Trilinears(X763) =  (b + c)        -3 
-Trilinears(X764) =  (b - c)3 
-Trilinears(X765) =  (b - c)        -2 
-Trilinears(X766) =  f(a,b,c) 
-Trilinears(X767) =  f(a,b,c)        
-Trilinears(X768) =  f(a,b,c)        
-Trilinears(X769) =  f(a,b,c)        
-Trilinears(X770) =         f(A,B,C) 
-Trilinears(X771) =   1/(cos3B - cos3C) 
-Trilinears(X772) =  f(a,b,c)        
-Trilinears(X773) =  f(a,b,c)        
-Trilinears(X774) =   cos2B + cos2C 
-Trilinears(X775) =         f(A,B,C) 
-Trilinears(X776) =  f(a,b,c)        
-Trilinears(X777) =  f(a,b,c)        
-Trilinears(X778) =  f(a,b,c)        
-Trilinears(X779) =  f(a,b,c)        
-Trilinears(X780) =  f(a,b,c)        
-Trilinears(X781) =  f(a,b,c)        
-Trilinears(X782) =  f(a,b,c)        
-Trilinears(X783) =  f(a,b,c)        
-Trilinears(X784) =  f(a,b,c)        
-Trilinears(X785) =  f(a,b,c)        
-Trilinears(X786) =  f(a,b,c)        
-Trilinears(X787) =  f(a,b,c)        
-Trilinears(X788) =   a2(b3 -  c3) 
-Trilinears(X789) =   a - 2/(b3 - c3) 
-Trilinears(X790) =  f(a,b,c)        
-Trilinears(X791) =  f(a,b,c)        
-Trilinears(X792) =  f(a,b,c)        
-Trilinears(X793) =  f(a,b,c)        
-Trilinears(X794) =  f(a,b,c)        
-Trilinears(X795) =  f(a,b,c)        
-Trilinears(X796) =  f(a,b,c)        
-Trilinears(X797) =  f(a,b,c)        
-Trilinears(X798) =   a2(b2 - c2) 
-Trilinears(X799) =   csc2A/(cos2B - cos2C) 
-Trilinears(X800) =   sin A (cos2B + cos2C) 
-Trilinears(X801) =         f(A,B,C) 
-Trilinears(X802) =  f(a,b,c)        
-Trilinears(X803) =  f(a,b,c)        
-Trilinears(X804) =   a -3(b2 - c2) + a1(b -2 - c -2) 
-Trilinears(X805) =  f(a,b,c)        
-Trilinears(X806) =  f(a,b,c)        
-Trilinears(X807) =  f(a,b,c)        
-Trilinears(X808) =  f(a,b,c)        
-Trilinears(X809) =  f(a,b,c)        
-Trilinears(X810) =   sin 2A (cos2B - cos2C) 
-Trilinears(X811) =   (csc 2A)/(cos2B - cos2C) 
-Trilinears(X812) =   a -2(b1 - c1) + a0(b -1 - c -1) 
-Trilinears(X813) =   1/[a-2(b1 - c1) + a0(b-1 - c -1)] 
-Trilinears(X814) =  f(a,b,c)        
-Trilinears(X815) =  f(a,b,c)        
-Trilinears(X816) =  f(a,b,c)        
-Trilinears(X817) =  f(a,b,c)        
-Trilinears(X818) =  f(a,b,c)        
-Trilinears(X819) =  f(a,b,c)        
-Trilinears(X820) =         f(A,B,C) 
-Trilinears(X821) =         f(A,B,C) 
-Trilinears(X822) =   sec2B - sec2C 
-Trilinears(X823) =   1/(sec2B - sec2C) 
-Trilinears(X824) =  f(a,b,c)        
-Trilinears(X825) =   1/[a-1(b3 - c3) + a2(b0 - c0)] 
-Trilinears(X826) =   a -1(b4 -        c4) + a3(b0 - c0) 
-Trilinears(X827) =   1/[a-1(b4 - c4) + a3(b0 - c0)] 
-Trilinears(X828) =         f(A,B,C) 
-Trilinears(X829) =         f(A,B,C) 
-Trilinears(X830) =  f(a,b,c)        
-Trilinears(X831) =  f(a,b,c)        
-Trilinears(X832) =  f(a,b,c)        
-Trilinears(X833) =  f(a,b,c)        
-Trilinears(X834) =  f(a,b,c)        
-Trilinears(X835) =  f(a,b,c)        
-Trilinears(X836) =         f(A,B,C) 
-Trilinears(X837) =         f(A,B,C) 
-Trilinears(X838) =  f(a,b,c)        
-Trilinears(X839) =  f(a,b,c)        
-Trilinears(X840) =         f(a,b,c) 
-Trilinears(X841) =         f(a,b,c) 
-Trilinears(X842) =   a/(2ax - by - cz) 
-Trilinears(X843) =   a/(2ax - by - cz) 
-Trilinears(X844) =   - x + y + z 
-Trilinears(X845) =   - x + y + z 
-Trilinears(X846) =  f(a,b,c)        
-Trilinears(X847) =  sec A sec 2A 
-Trilinears(X848) =   (csc A)/(cot A - cot A') 
-Trilinears(X849) =  [a/(b +        c)]2 
-Trilinears(X850) =   (b2 - c2)/a3 
-Trilinears(X851) =   sin 2B sin(C - A) + sin 2C sin(B - A) 
-Trilinears(X852) =  f(A,B,C) 
-Trilinears(X853) =  f(A,B,C) 
-Trilinears(X854) =  f(A,B,C) 
-Trilinears(X855) =   f(A,B,C) 
-Trilinears(X856) =   f(A,B,C) 
-Trilinears(X857) =  f(A,B,C) 
-Trilinears(X858) =   sin3C sin 2B sin(C - A) + sin3B sin 2C sin(B - A) 
-Trilinears(X859) =   f(A,B,C) 
-Trilinears(X860) =         f(A,B,C) 
-Trilinears(X861) =  f(A,B,C) 
-Trilinears(X862) =         f(A,B,C) 
-Trilinears(X863) =         f(A,B,C) 
-Trilinears(X864) =   f(A,B,C) 
-Trilinears(X865) =  f(A,B,C) 
-Trilinears(X866) =  f(A,B,C) 
-Trilinears(X867) =         f(A,B,C) 
-Trilinears(X868) =   sin 2B sin(A - C) csc(A - B) - sin 2C sin(A - B) csc(A - C) 
-Trilinears(X869) =         f(a,b,c) 
-Trilinears(X870) =   1/[a2(b2 + c2 + bc)] 
-Trilinears(X871) =         f(a,b,c) 
-Trilinears(X872) =   [a(b + c)]2 
-Trilinears(X873) =   [a(b + c)] -2 
-Trilinears(X874) =         f(a,b,c) 
-Trilinears(X875) =         f(a,b,c) 
-Trilinears(X876) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X877) =   (a2u2 - bcvw)/[a2u(bv - cw)], where u 
-Trilinears(X878) =   a2u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X879) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X880) =   (a2u2 - bcvw)/[a2u(bv - cw)]
-Trilinears(X881) =    a2u(bv - cw)/(a2u2 - bcvw), where u 
-Trilinears(X882) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X883) =   (a2u2 - bcvw)/[a2u(bv - cw)] 
-Trilinears(X884) =   a2u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X885) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X886) =   (a2u2 - bcvw)/[a2u(bv - cw)] 
-Trilinears(X887) =   a2u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X888) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X889) =   (a2u2 - bcvw)/[a2u(bv - cw)] 
-Trilinears(X890) =   a2u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X891) =   u(bv - cw)/(a2u2 - bcvw) 
-Trilinears(X892) =   (a2u2 - bcvw)/[a2u(bv - cw)] 
-Trilinears(X893) =   a/(a2 + bc) 
-Trilinears(X894) =   (a2 + bc)/a 
-Trilinears(X895) =   a(b2 + c2 - a2)/(b2 + c2 - 2a2) 
-Trilinears(X896) =   2a2 - b2 - c2 
-Trilinears(X897) =   1/(2a2 - b2 - c2) 
-Trilinears(X898) =   1/[(b - c)(2bc - ab - ac)] 
-Trilinears(X899) =   1/b + 1/c - 2/a 
-Trilinears(X900) =   (b - c)(b + c - 2a)/a 
-Trilinears(X901) =   a/[(b - c)(b + c - 2a)] 
-Trilinears(X902) =   a(b + c - 2a) 
-Trilinears(X903) =   bc/(b + c - 2a) 
-Trilinears(X904) =   a2/(a2 + bc) 
-Trilinears(X905) =   (b - c)cot A
-Trilinears(X906) =   (cos A)/[wb2 - vc2 + a(wb - vc)], u 
-Trilinears(X907) =  f(a,b,c)        
-Trilinears(X908) =   [(wb + vc)/a - v - w]/a, where u 
-Trilinears(X909) =         f(a,b,c) 
-Trilinears(X910) =         f(a,b,c) 
-Trilinears(X911) =   a/[wb2 + vc2 - a(wb + vc)] 
-Trilinears(X912) =   (a^2 - b^2 - c^2) (a^3 (b + c) - a^2 (b^2 + c^2) - a (b - c)^2 (b + c) + (b^2 - c^2)^2) 
-Trilinears(X913) =  f(a,b,c)        
-Trilinears(X914) =         f(a,b,c) 
-Trilinears(X915) =   (tan A)/(sin B (-1 + cos A + cos B) + sin C (-1 + cos A + cos C)) 
-Trilinears(X916) =  f(a,b,c)        
-Trilinears(X917) =   (sec A)/((a - b) sin 2B + (a - c) sin 2C) 
-Trilinears(X918) =         f(a,b,c) 
-Trilinears(X919) =  a2/(w/b - v/c) 
-Trilinears(X920) =  f(A,B,C)        
-Trilinears(X921) =   1/(cos2B + cos2C - cos2A) 
-NA
-Trilinears(X923) =         f(a,b,c) 
-Trilinears(X924) =   b cos(A - B) - c cos(A - C) 
-Trilinears(X925) =   (sin A)/(sec 2B - sec 2C) 
-Trilinears(X926) =  f(a,b,c)        
-Trilinears(X927) =   1/(bw - cv) 
-Trilinears(X928) =  f(a,b,c)        
-Trilinears(X929) =         f(a,b,c) 
-Trilinears(X930) =   1/(bw - cv) 
-Trilinears(X931) =         f(a,b,c) 
-Trilinears(X932) =         f(a,b,c) 
-Trilinears(X933) =   1/(bw - cv) 
-Trilinears(X934) =   1/(bw - cv) 
-Trilinears(X935) =  f(a,b,c)        
-Trilinears(X936) =  a3 - a2(b + c) - a(b - c)2 + (b + c)3 
-NA
-Trilinears(X938) =   f(a,b,c) 
-Trilinears(X939) =  f(a,b,c) 
-Trilinears(X940) =         f(a,b,c) 
-Trilinears(X941) =  f(a,b,c) 
-Trilinears(X942) =   2abc + (b + c)(a - b + c)(a + b -c) 
-Trilinears(X943) =  f(a,b,c) 
-Trilinears(X944) =   bc[3a4 - 2a3(b + c) + (b - c)2(2ab + 2ac - 2bc - b2 - c2 - 2a2)]<br>Trilinears  1 - cos A - cos B - cos C + cos B cos C<br>Trilinears  r - R cos B cos C 
-Trilinears(X945) =         f(a,b,c) 
-Trilinears(X946) =   bc[a3(b + c) + (b - c)2(a2 - ab - ac - b2 - c2 - 2bc)] 
-Trilinears(X947) =         f(a,b,c) 
-Trilinears(X948) =         f(a,b,c) 
-Trilinears(X949) =         f(a,b,c) 
-Trilinears(X950) =  bc(b + c - a)[2a3 + (b + c)(a2 + (b - c)2)] 
-Trilinears(X951) =         f(a,b,c) 
-Trilinears(X952) =   bc[2a4 - 2a3(b + c) - a2(b2 - 4bc + c2) + (2a - b - c)(b - c)(b2 - c2)] 
-Trilinears(X953) =   a/[2a4 - 2a3(b + c) -  a2(b2 - 4bc + c2) + (2a - b - c)(b - c)(b2 - c2)] 
-Trilinears(X954) =   a5 + (b + c)[2a2(b2 + c2 - a2 + bc) - (b - c)2(2bc + ab + ac)] 
-Trilinears(X955) =         f(a,b,c) 
-Trilinears(X956) =         f(a,b,c) 
-Trilinears(X957) =         f(a,b,c) 
-Trilinears(X958) =   (b + c - a)(a2 + ab + ac + 2bc) 
-Trilinears(X959) =         f(a,b,c) 
-Trilinears(X960) =         f(a,b,c) 
-Trilinears(X961) =         f(a,b,c) 
-Trilinears(X962) =   bc[a4 + 2a3(b + c) - 4a2bc - (b + c)(b - c)2(2a + b + c)] 
-Trilinears(X963) =   a/[a4 + 2a3(b + c) - 4a2bc - (b + c)(b - c)2(2a + b + c)] 
-Trilinears(X964) =         f(a,b,c) 
-Trilinears(X965) =         f(a,b,c) 
-Trilinears(X966) =   bc[a2 - 2a(b + c) - (b + c)2] 
-Trilinears(X967) =         f(a,b,c) 
-Trilinears(X968) =   a2 - 2a(b + c) - (b + c)2 
-Trilinears(X969) =         f(a,b,c) 
-Trilinears(X970) =   a[a3(b + c)2 + a(ab + ac - 2bc)(b2 + c2) - bc(b3 + c3) - a(b4 + c4) - (b5 +         c5)] 
-Trilinears(X971) =   a4(b + c) - 2a3(b2 + c2 - bc) + 2a(b - c)2(b2 + c2 + bc) - (b - c)2(b + c)3 
-Trilinears(X972) =   1/[a4(b + c) - 2a3(b2 + c2 - bc) + 2a(b - c)2(b2 + c2 + bc) - (b - c)2(b + c)3] 
-Trilinears(X973) =   u[a10 - 3a8s + a6(2b4 + 3b2c2 + 2c4) + a4s(2b4 - b2c2 + 2c4) - a2(b2 -         c2)2(3b4 + 5b2c2 + s(b2 - c2)2(b4 - b2c2 +  c4)] 
-NA
-Trilinears(X975) =         f(a,b,c) 
-Trilinears(X976) =         f(a,b,c) 
-Trilinears(X977) =         f(a,b,c) 
-Trilinears(X978) =   a2(b + c) + a(b2 - bc + c2) - bc(b + c) 
-Trilinears(X979) =  f(a,b,c)        
-Trilinears(X980) =         f(a,b,c) 
-Trilinears(X981) =   1/[a2(b2 + bc + c2) + (b2 + c2)(bc + ca + ab)] 
-Trilinears(X982) =         f(a,b,c) 
-Trilinears(X983) =         f(a,b,c) 
-Trilinears(X984) =   b2 + bc + c2 
-Trilinears(X985) =         f(a,b,c) 
-Trilinears(X986) =         f(a,b,c) 
-Trilinears(X987) =         f(a,b,c) 
-Trilinears(X988) =         f(a,b,c) 
-Trilinears(X989) =         f(a,b,c) 
-Trilinears(X990) =         f(a,b,c) 
-Trilinears(X991) =   a[a3(b + c) - a2(b2 - bc + c2) - a(b + c)(b2 + c2) + (b - c)(b3 - c3)] 
-Trilinears(X992) =         f(a,b,c) 
-Trilinears(X993) =  f(a,b,c)        
-Trilinears(X994) =         f(a,b,c) 
-Trilinears(X995) =   a(ab + ac - bc + b2 + c2) 
-Trilinears(X996) =  1/[a(ab + ac - bc + b2 + c2)] 
-Trilinears(X997) =         f(a,b,c) 
-Trilinears(X998) =         f(a,b,c) 
-Trilinears(X999) =   2 - cos A 
-Trilinears(X1000) =   1/[a(a2 + 4bc - b2 - c2)] 
+Trilinears(X1) = 1 : 1 : 1
+Trilinears(X2) = 1/a : 1/b : 1/c
+Trilinears(X3) = cos A : cos B : cos C
+Trilinears(X4) = sec A : sec B : sec C
+Trilinears(X5) = cos(B - C) : cos(C - A) : cos(A - B)
+Trilinears(X6) = a : b : c
+Trilinears(X7) = bc/(b + c - a) : ca/(c + a - b) : ab/(a + b - c)
+Trilinears(X8) = (b + c - a)/a : (c + a - b)/b : (a + b - c)/c
+Trilinears(X9) = b + c - a : c + a - b : a + b - c
+Trilinears(X10) = bc(b + c) : ca(c + a) : ab(a + b)
+Trilinears(X11) = 1 - cos(B - C) : 1 - cos(C - A) : 1 - cos(A - B)
+Trilinears(X12) = 1 + cos(B - C) : 1 + cos(C - A) : 1 + cos(A -B) : :
+Trilinears(X13) = csc(A + &pi/3) : csc(B + &pi/3) : csc(C + &pi/3)
+Trilinears(X14) = csc(A - &pi/3) : csc(B - &pi/3) : csc(C - &pi/3)
+Trilinears(X15) = sin(A + &pi/3) : sin(B + &pi/3) : sin(C + &pi/3)
+Trilinears(X16) = sin(A- &pi/3) : sin(B - &pi/3) : sin(C - &pi/3)
+Trilinears(X17) = csc(A + &pi/6) : csc(B + &pi/6) : csc(C + &pi/6)
+Trilinears(X18) = csc(A - &pi/6) : csc(B - &pi/6) : csc(C - &pi/6)
+Trilinears(X19) = tan A : tan B : tan C
+Trilinears(X20) = cos A - cos B cos C : cos B - cos C cos A : cos C - cos A cos B
+Trilinears(X21) = 1/(cos B + cos C) : 1/(cos C + cos A) : 1/(cos A + cos B)
+Trilinears(X22) = a(b4 + c4 - a4) : b(c4 + a4 - b4) : c(a4 + b4 - c4)
+Trilinears(X23) = a[b4 + c4 - a4 - b2c2] : :
+Trilinears(X24) = sec A cos 2A : sec B cos 2B : sec C cos 2C
+Trilinears(X25) = sin A tan A : :
+Trilinears(X26) = a[b2cos 2B + c2cos 2C - a2cos 2A] : :
+Trilinears(X27) = (sec A)/(b + c) : (sec B)/(c + a) : (sec C)/(a + b)
+Trilinears(X28) = (tan A)/(b + c) : (tan B)/(c + a) : (tan C)/(a + b)
+Trilinears(X29) = (sec A)/(cos B + cos C) : (sec B)/(cos C + cos A) : (sec C)/(cos A + cos B)
+Trilinears(X30) = cos A - 2 cos B cos C : cos B - 2 cos C cos A : cos C - 2 cos A cosB
+Trilinears(X31) = a2 : b2 : c2
+Trilinears(X32) = a3 : b3 : c3
+Trilinears(X33) = 1 + sec A : 1 + sec B : 1 + sec C = tan A cot(A/2) : tan B cot(B/2) : tan C cot(C/2)
+Trilinears(X34) = 1 - sec A : 1 - sec B : 1 - sec C
+Trilinears(X35) = 1 + 2 cos A : 1 + 2 cos B : 1 + 2 cos C
+Trilinears(X36) = 1 - 2 cos A : 1 - 2 cos B : 1 - 2 cos C
+Trilinears(X37) = b + c : c + a : a + b
+Trilinears(X38) = b2 + c2 : c2 + a2 : a2 + b2
+Trilinears(X39) = a(b2 + c2) : b(c2 + a2) : c(a2 + b2)
+Trilinears(X40) = cos B + cos C - cos A - 1 : :
+Trilinears(X41) = a2(b + c - a) : b2(c + a - b) : c2(a + b - c)
+Trilinears(X42) = a(b + c) : b(c + a) : c(a + b)
+Trilinears(X43) = ab + ac - bc : bc + ba - ca : ca + cb - ab
+Trilinears(X44) = b + c - 2a : c + a - 2b : a + b - 2c
+Trilinears(X45) = 2b + 2c - a : 2c + 2a - b : 2a + 2b - c
+Trilinears(X46) = cos B + cos C - cos A : :
+Trilinears(X47) = cos 2A : cos 2B : cos 2C = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = a2(a4 + b4 + c4 - 2a2b2 - 2a2c2)
+Trilinears(X48) = tan B + tan C : :
+Trilinears(X49) = cos 3A : cos 3B : cos 3C
+Trilinears(X50) = sin 3A : :
+Trilinears(X51) = a2cos(B - C) : :
+Trilinears(X52) = cos 2A cos(B - C) : cos 2B cos(C - A) : cos 2C cos(A - B)
+Trilinears(X53) = tan A cos(B - C) : tan B cos(C - A) : tan C cos(A - B)
+Trilinears(X54) = sec(B - C) : sec(C - A) : sec(A - B)
+Trilinears(X55) = a(b + c - a) : b(c + a - b) : c(a + b - c)
+Trilinears(X56) = a/(b + c - a) : b/(c + a - b) : c/(a + b - c)
+Trilinears(X57) = 1/(b + c - a) : 1/(c + a - b) : 1/(a + b - c)
+Trilinears(X58) = a/(b + c) : b/(c + a) : c/(a + b)
+Trilinears(X59) = 1/[1 - cos(B - C)] : 1/[1 - cos(C - A)] : 1/[1 - cos(A - B)]
+Trilinears(X60) = 1/[1 + cos(B - C)] : 1/[1 + cos(C - A)] : 1/[1 + cos(A - B)]
+Trilinears(X61) = sin(A + &pi/6) : sin(B + &pi/6) : sin(C + &pi/6)
+Trilinears(X62) = sin(A - &pi/6) : sin(B - &pi/6) : sin(C - &pi/6)
+Trilinears(X63) = cot A : cot B : cot C
+Trilinears(X64) = 1/(cos A - cos B cos C) : 1/(cos B - cos C cos A) : 1/(cos C - cos A cos B)
+Trilinears(X65) = cos B + cos C : cos C + cos A : cos A + cos B
+Trilinears(X66) = bc/(b4 + c4 - a4) : :
+Trilinears(X67) = bc/(b4 + c4 - a4 - b2c2) : :
+Trilinears(X68) = cos A sec 2A : cos B sec 2B : cos C sec 2C
+Trilinears(X69) = (cos A)/a2 : (cos B)/b2 : (cos C)/c2
+Trilinears(X70) = bc/[b2 cos 2B + c2 cos 2C - a2 cos 2A] : :
+Trilinears(X71) = (b + c) cos A : (c + a) cos B : (a + b) cos C
+Trilinears(X72) = (b + c) cot A : (c + a) cot B : (a + b) cot C
+Trilinears(X73) = sec B + sec C : sec C + sec A : sec A + sec B
+Trilinears(X74) = 1/(cos A - 2 cos B cos C) : 1/(cos B - 2 cos C cos A) : 1/(cos C - 2 cos A cos B)
+Trilinears(X75) = 1/a2 : 1/b2 : 1/c2
+Trilinears(X76) = 1/a3 : 1/b3 : 1/c3
+Trilinears(X77) = 1/(1 + sec A) : 1/(1 + sec B) : 1/(1 + sec C)
+Trilinears(X78) = 1/(1 - sec A) : 1/(1 - sec B) : 1/(1 - sec C)
+Trilinears(X79) = 1/(1 + 2 cos A) : :
+Trilinears(X80) = 1/(1 - 2 cos A) : 1/(1 - 2 cos B) : 1/(1 - 2 cos C)
+Trilinears(X81) = 1/(b + c) : 1/(c + a) : 1/(a + b)
+Trilinears(X82) = 1/(b2 + c2) : 1/(c2 + a2) : 1/(a2 + b2)
+Trilinears(X83) = bc/(b2 + c2) : ca/(c2 + a2) : ab/(a2 + b2)
+Trilinears(X84) = 1/(cos B + cos C - cos A - 1) : :
+Trilinears(X85) = b2c2/(b + c - a) : c2a2/(c + a - b) : a2b2/(a + b - c)
+Trilinears(X86) = bc/(b + c) : ca/(c + a) : ab/(a + b)
+Trilinears(X87) = 1/(ab + ac - bc) : 1/(bc + ba - ca) : 1/(ca + cb - ab)
+Trilinears(X88) = 1/(b + c - 2a) : 1/(c + a - 2b) : 1/(a + b - 2c)
+Trilinears(X89) = 1/(2b + 2c - a) : 1/(2c + 2a - b) : 1/(2a + 2b - c)
+Trilinears(X90) = 1/(cos B + cos C - cos A) : 1/(cos C + cos A - cos B) : 1/(cos A + cos B - cos C)
+Trilinears(X91) = sec 2A : sec 2B : sec 2C
+Trilinears(X92) = csc 2A : csc 2B : csc 2C
+Trilinears(X93) = sec 3A : sec 3B : sec 3C
+Trilinears(X94) = csc 3A : csc 3B : csc 3C
+Trilinears(X95) = b2c2sec(B - C) : :
+Trilinears(X96) = sec 2A sec(B - C) : sec 2B sec(C - A) : sec 2C sec(A - B)
+Trilinears(X97) = cot A sec(B - C) : cot B sec(C - A) : cot C sec(A - B)
+Trilinears(X98) = sec(A + &omega) : sec(B + &omega) : sec(C + &omega)
+Trilinears(X99) = bc/(b2 - c2) : ca/(c2 - a2) : ab/(a2 - b2)
+Trilinears(X100) = 1/(b - c) : 1/(c - a) : 1/(a - b)
+Trilinears(X101) = a/(b - c) : b/(c - a) : c/(a - b)
+Trilinears(X102) = 1/[sin B (sec A - sec B) + sin C (sec A - sec C)] : :
+Trilinears(X103) = a/[(a - b) cot C + (a - c) cot B] : b/[(b - c) cot A + (b - a) cot C] : c/[(c - a) cot B + (c - b) cot A]
+Trilinears(X104) = 1/(-1 + cos B + cos C) : 1/(-1 + cos C + cos A) : 1/(-1 + cos C + cos B)
+Trilinears(X105) = 1/[b2 + c2 - a(b + c)] : 1/[c2 + a2 - b(c + a)] : 1/[a2 + b2 - c(a + b)]
+Trilinears(X106) = a/(2a - b - c) : b/(2b - c - a) : c/(2c - a -b)
+Trilinears(X107) = 1/[cos A (sin 2B - sin 2C)] : :
+Trilinears(X108) = a/(sec B - sec C) : b/(sec C - sec A): c/(sec A - sec B)
+Trilinears(X109) = a/(cos B - cos C) : b/(cos C - cos A) : c/(cos A - cos B)
+Trilinears(X110) = csc(B - C) : csc(C - A) : csc(A -B)
+Trilinears(X111) = a/(2a2 - b2 - c2) : b/(2b2 - c2 - a2) : c/(2c2 - a2 - b2)
+Trilinears(X112) = a/(sin 2B - sin 2C) : b/(sin 2C - sin 2A) : c/(sin 2A - sin 2B)
+Trilinears(X113) = sin B sin C [(sin C)/(cos C - 2 cos A cos B) + (sin B)/(cos B - 2 cos A cos C)] : :
+Trilinears(X114) = bc[b sec(B + &omega) + c sec(C + &omega)] : :
+Trilinears(X115) = bc(b2 - c2)2 : ca(c2 - a2)2 : ab(a2 - b2)2
+Trilinears(X116) = bc[(b - c)2(b2 + bc + c2 - ab - ac)] : :
+Trilinears(X117) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = g(b,c,a) + g(c,b,a), and
+Trilinears(X118) = g(b,c,a) + g(c,b,a) : : ,where g(b,c,a) = b3c/[(b - c) cot A + (b - a) cot C]
+Trilinears(X119) = (csc A)(-1 + cos B + cos C)[sin 2B + sin 2C + 2(-1 + cos A)(sin B + sin C)] : :
+Trilinears(X120) = bc[2abc - (b + c)(a2 + (b - c)2)](b2 + c2 - ab -ac) : :
+Trilinears(X121) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = bc(b + c - 2a)[b3 + c3 + a(b2 + c2) - 2bc(b + c)]
+Trilinears(X122) = (b2 - c2)2(cos A - cos B cos C) cot2A : :
+Trilinears(X123) = (csc A)(sec B - sec C)[(sec A)(sin2B - sin2C) + sin C tan C - sin B tan B] : :
+Trilinears(X124) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = bc(b + c - a)(b - c)2[(b + c)(b2 + c2 - a2 - bc) + abc]
+Trilinears(X125) = cos A sin2(B - C) : cos B sin2(C - A) : cos C sin2(A - B)
+Trilinears(X126) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = bc(2a2 - b2 - c2)[b4 + c4 + a2(b2 + c2) - 4b2c2]
+Trilinears(X127) = bc(sin 2B - sin 2C)[(b2 - c2)sin 2A - b2sin 2B + c2sin 2C] : :
+Trilinears(X128) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)(cos 2B + cos 2C)(1 + 2 cos 2A)(cos 2A + 2 cos 2B cos 2C)
+Trilinears(X129) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)(sin 2A)(sin 2B + sin 2C) s(A,B,C) t(A,B,C),
+Trilinears(X130) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sin A)(sin 2B + sin 2C)[(sin 2B - sin 2C)2][sin2(2A) + sin 2B sin 2C]
+Trilinears(X131) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)[2T - S(sec 2B + sec 2C)](T - S sec 2A),
+Trilinears(X132) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A) u(A,B,C) v(A,B,C),
+Trilinears(X133) = (sec A)[(sin 2B - sin 2C)2 + (sin 2A)(sin 2B) + (sin 2A)(sin 2C) - 2(sin 2B)(sin 2C)](2 sin 2A - sin 2B - sin 2C) : :
+Trilinears(X134) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A) u(A,B,C) [v(B,C,A) - v(C,B,A)],
+Trilinears(X135) = (sec A)[(sin 2B)/(sec 2C - sec 2A) + (sin 2C)/(sec 2A - sec 2B)] : :
+Trilinears(X136) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)[(sin 2B - sin 2C)2](sin 2B + sin 2C - sin 2A) u(A,B,C),
+Trilinears(X137) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)(sin 2B + sin 2C)[(sin 2B - sin 2C)2] u(A,B,C),
+Trilinears(X138) = (v + w) sec A : (w + u) sec B : (u + v) sec C, where: u = u(A,B,C) = (sin 2A)/(2 sin22A - sin22B - sin22C), v = u(B,C,A), w = u(C,A,B)
+Trilinears(X139) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (sec A)(sin 2B + sin 2C)[(sin 2B - sin 2C)2][sin2(2B) + sin2(2C) - sin2(2A)] u(A,B,C),
+Trilinears(X140) = 2 cos A + cos(B - C) : 2 cos B + cos(C - A) : 2 cos C + cos(A - B)
+Trilinears(X141) = bc(b2 + c2) : :
+Trilinears(X142) = b + c - [(b - c)2]/a : c + a - [(c - a)2]/b : a + b - [(a - b)2]/c
+Trilinears(X143) = (sec A)[cos(2C - 2A) + cos(2A - 2B)] : :
+Trilinears(X144) = (csc A)(tan B/2 + tan C/2 - tan A/2) : :
+Trilinears(X145) = bc(3a - b - c) : :
+Trilinears(X146) = bc(-avw + bwu + cuv) : : , where u = u(A,B,C) = cos A - 2 cos B cos C, v = u(B,C,A), w = u(C,A,B)
+Trilinears(X147) = bc[a8 + (b2 + c2)a6 - (2b4 + 3b2c2 + 2c4)a4 + (b6 + b4c2 + b2c4 + c6)a2 - b8 + b6c2 + b2c6 - c8] : :
+Trilinears(X148) = bc[a4 - (b2 - c2)2 + b2c2 - a2b2 - a2c2]
+Trilinears(X149) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = bc[b3 + c3 - a3 + (a2 - bc)(b + c) + a(bc - b2 - c2)]
+Trilinears(X150) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = bc[b4 + c4 - a4 + a(bc2 +cb2 - b3 - c3) - bc(a2 + b2 + c2) + (b + c)a3]
+Trilinears(X151) = f(a,b,c) : f(b,c,a) : f(c,a,b), where
+Trilinears(X152) = f(a,b,c) : f(b,c,a) : f(c,a,b), where
+Trilinears(X153) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (by + cz - ax)/a, where x : y : z = X(104)
+Trilinears(X154) = (cos A - cos B cos C)a2 : (cos B - cos C cos A)b2 : (cos C - cos A cos B)c2
+Trilinears(X155) = (cos A)[cos2B + cos2C - cos2A] : :
+Trilinears(X156) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a[b2y/v + c2z/w - a2x/u],
+Trilinears(X157) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a[b3cos B + c3cos C - a3cos A]
+Trilinears(X158) = sec2A : sec2B : sec2C
+Trilinears(X159) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = a[(a2 + b2 + c2)sin 2A + (c2 - b2 - a2)sin 2B + (b2 - c2 - a2)sin 2C]
+Trilinears(X160) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = a[(b2 + c2)sin 2A + (c2 - a2)sin 2B + (b2 - a2)sin 2C]
+Trilinears(X161) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = a[(a2 + b2 + c2)sin2(2A) + (c2 - b2 - a2)sin2(2B) + (b2 - c2 - a2)sin2(2C)]
+Trilinears(X162) = 1/(sin 2B - sin 2C) : 1/(sin 2C - sin 2A) : 1/(sin 2A - sin 2B)
+Trilinears(X163) = (sin 2A)/(sin 2B - sin 2C) : (sin 2B)/(sin 2C - sin 2A) : (sin 2C)/(sin 2A - sin 2B)
+Trilinears(X164) = sin B/2 + sin C/2 - sin A/2 : sin C/2 + sin A/2 - sin B/2 : sin A/2 + sin B/2 - sin C/2
+Trilinears(X165) = tan(B/2) + tan(C/2) - tan(A/2) : tan(C/2) + tan(A/2) - tan(B/2) : tan(A/2) + tan(B/2) - tan(C/2)
+Trilinears(X166) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (tan A/2)/(cos B/2 + cos C/2 - cos A/2) - (tan B/2)/(cos C/2 + cos A/2 - cos B/2) - (tan C/2)/(cos A/2 + cos B/2 - cos C/2)
+Trilinears(X167) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = s(B,C,A)t(B,C,A) + s(C,A,B)t(C,A,B) - s(A,B,C)t(A,B,C),
+Trilinears(X168) = sin A - sin B - sin C + 2[cos A/2 + sin(B/2 - A/2) + sin(C/2 - A/2)] : :
+Trilinears(X169) = - (sin A)cos2(A/2) + (sin B)cos2(B/2) + (sin C)cos2(C/2) : :
+Trilinears(X170) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = - (tan A/2)sec2(A/2) + (tan B/2)sec2(B/2) + (tan C/2)sec2(C/2)
+Trilinears(X171) = a2 + bc : b2 + ca : c2 + ab
+Trilinears(X172) = a3 + abc : b3 + abc : c3 + abc
+Trilinears(X173) = cos B/2 + cos C/2 - cos A/2 : :
+Trilinears(X174) = sec A/2 : sec B/2 : sec C/2
+Trilinears(X175) = -1 + sec A/2 cos B/2 cos C/2 : :
+Trilinears(X176) = 1 + sec A/2 cos B/2 cos C/2 : :
+Trilinears(X177) = (cos B/2 + cos C/2) sec A/2 : (cos C/2 + cos A/2) sec B/2 : (cos A/2 + cos B/2) sec C/2
+Trilinears(X178) = (cos B/2 + cos C/2) csc A : (cos C/2 + cos A/2) csc B : (cos A/2 + cos B/2) csc C
+Trilinears(X179) = sec4(A/4) : sec4(B/4) : sec4(C/4)
+Trilinears(X180) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/t(B,C,A) + 1/t(C,B,A) - 1/t(A,C,B),
+Trilinears(X181) = a(b + c)2/(b + c - a) : b(c + a)2/(c + a - b) : c(a + b)2/(a + b - c)
+Trilinears(X182) = cos(A- &omega) : cos(B - &omega) : cos(C -&omega)
+Trilinears(X183) = b2c2cos(A- &omega) : c2a2cos(B - &omega) : a2b2cos(C - &omega)
+Trilinears(X184) = a2cos A : :
+Trilinears(X185) = (cos A)[1 - cos A cos(B - C)] : :
+Trilinears(X186) = 4 cos A - sec A : 4 cos B - sec B : 4 cos C - sec C
+Trilinears(X187) = a(2a2 - b2 - c2) : :
+Trilinears(X188) = csc A/2 : csc B/2 : csc C/2
+Trilinears(X189) = bc/(cos B + cos C - cos A - 1) : ca/(cos C + cos A - cos B - 1) : ab/(cos A + cos B - cos C - 1)
+Trilinears(X190) = bc/(b - c) : ca/(c - a) : ab/(a - b)
+Trilinears(X191) = (b + c - a)(bc + ca + ab) + b3 + c3 - a3 : :
+Trilinears(X192) = bc(ca + ab - bc) : ca(ab + bc - ca) : ab(bc + ca - ab)
+Trilinears(X193) = (csc A)(cot B + cot C - cot A) : (csc B)(cot C + cot A - cot B) : (csc C)(cot A + cot B - cot C)
+Trilinears(X194) = bc[a2b2 + a2c2 - b2c2] : :
+Trilinears(X195) = (cos A)(v + w - u) : : , where u = u(A,B,C) = cos A cos(B - A) cos(C - A)
+Trilinears(X196) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos B + cos C - cos A - 1) sec A tan A/2
+Trilinears(X197) = a[-a2tan A/2 + b2tan B/2 + c2tan C/2] : :
+Trilinears(X198) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = a(cos B + cos C - cos A - 1)
+Trilinears(X199) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a[b4 + c4 - a4 + (b2 + c2 - a2)(bc + ca + ab)]
+Trilinears(X200) = cot2(A/2) : :
+Trilinears(X201) = (cos A)[1 + cos(B - C)] : (cos B)[1 + cos(C - A)] : (cos C)[1 + cos(A - B)]
+Trilinears(X202) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = u(v + w - u),
+Trilinears(X203) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = u(v + w - u),
+Trilinears(X204) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (tan A)(tan B + tan C - tan A)
+Trilinears(X205) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a2[b2tan B/2 + c2tan C/2 - a2tan A/2]
+Trilinears(X206) = a3(b4 + c4 - a4) : :
+Trilinears(X207) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (1 - sec A)(sec B + sec C - sec A - 1)
+Trilinears(X208) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (1 - sec A)(cos B + cos C - cos A - 1)
+Trilinears(X209) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (sin B + sin C)[sin A + sin(A - B) + sin(A - C)]
+Trilinears(X210) = (b + c)(b + c - a) : (c + a)(c + a - b) : (a + b)(a + b - c)
+Trilinears(X211) = sin(A + &omega)[cos B sin(B + &omega) + cos C sin(C + &omega) - cos A sin(A + &omega)] : :
+Trilinears(X212) = (cos A)(1 + cos A) : (cos B)(1 + cos B) : (cos C)(1 + cos C)
+Trilinears(X213) = (b + c)a2 : (c + a)b2 : (a + b)c2
+Trilinears(X214) = (b + c - 2a)(b2 + c2 - a2 - bc) : :
+Trilinears(X215) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (sin 3A)(sin 3B + sin 3C - sin 3A)
+Trilinears(X216) = sin 2A cos(B - C) : :
+Trilinears(X217) = (sin3A) cos A cos(B - C) : :
+Trilinears(X218) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = cos2(A/2) [cos4(B/2) + cos4(C/2) - cos4(A/2)]
+Trilinears(X219) = cos A cot A/2 : :
+Trilinears(X220) = a(b + c - a)2 : :
+Trilinears(X221) = (sin2A/2)(cos B + cos C - cos A - 1) : :
+Trilinears(X222) = cos A tan A/2 : cos B tan B/2 : cos C tan C/2
+Trilinears(X223) = (tan A/2)(cos B + cos C - cos A - 1)
+Trilinears(X224) = [cot B cos2(B/2) + cot C cos2(C/2) - cot A cos2(A/2)]cot A
+Trilinears(X225) = (sec A)(cos B + cos C) : (sec B)(cos C + cos A) : (sec C)(cos A + cos B)
+Trilinears(X226) = (csc A)(cos B + cos C) : (csc B)(cos C + cos A) : (csc C)(cos A + cos B)
+Trilinears(X227) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c)(cos B + cos C - cos A - 1)tan A/2
+Trilinears(X228) = (sin 2A)(sin B + sin C) : (sin 2B)(sin C + sin A) : (sin 2C)(sin A + sin B)
+Trilinears(X229) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (v + w - u)/(b + c),
+Trilinears(X230) = bc[a2(2a2 - b2 - c2) + (b2 - c2)2] : :
+Trilinears(X231) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = u(-au + bv + cw), u : v : w = X(128)
+Trilinears(X232) = tan A cos(A + &omega) : tan B cos(B + &omega) : tan C cos(C + &omega)
+Trilinears(X233) = [b cos(C - A) + c cos(B - A)]cos(B - C) : :
+Trilinears(X234) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos B/2 + cos C/2)(cos B/2 cos C/2)2
+Trilinears(X235) = sec A - cos(B - C) : :
+Trilinears(X236) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (csc A/2)(cos B/2 + cos C/2 - cos A/2)
+Trilinears(X237) = a2cos(A + &omega) : b2cos(B + &omega) : c2cos(C + &omega)
+Trilinears(X238) = a2 - bc : b2 - ca : c2 - ab
+Trilinears(X239) = bc(a2 - bc) : :
+Trilinears(X240) = sec A cos(A + &omega) : sec B cos(B + &omega) : sec C cos(C + &omega)
+Trilinears(X241) = cos4B/2 - [cos2(A/2)][cos2(B/2) +cos2(C/2)] + cos4(C/2) : :
+Trilinears(X242) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (sec A)(sin2A - sin B sin C)
+Trilinears(X243) = (sec A)(cos2A - cos B cos C) : :
+Trilinears(X244) = (b - c)2 : (c - a)2 : (a - b)2
+Trilinears(X245) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = csc2(C - A) + csc(C - B) [csc(C - A) -csc(B - A)] + csc2(A - B)
+Trilinears(X246) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = csc(B-A)[cos A csc(B - A) + cos C csc(B - C)] + csc(C - A) u(A,B,C),
+Trilinears(X247) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = csc(B-A)[sec A csc(B - A) + sec C csc(B - C)] + csc(C - A) u(A,B,C),
+Trilinears(X248) = sin 2A sec(A + &omega) : sin 2B sec(B + &omega) : sin 2C sec(C + &omega)
+Trilinears(X249) = (csc A)csc2(B - C) : (csc B)csc2(C - A) : (csc C)csc2(A - B)
+Trilinears(X250) = (sec A)csc2(B - C) : (sec B)csc2(C - A) : (sec C)csc2(A - B)
+Trilinears(X251) = a2csc(A + &omega) : b2csc(B + &omega) : c2csc(C + &omega)
+Trilinears(X252) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = sec(B - C)/[1 - 2 cos(2A)]
+Trilinears(X253) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (csc A)/(tan B + tan C - tan A)
+Trilinears(X254) = (sec A)/(cos2B + cos2C - cos2A) : :
+Trilinears(X255) = cos2A : cos2B : cos2C
+Trilinears(X256) = 1/(a2 + bc) : 1/(b2 + ca) : 1/(c2 + ab)
+Trilinears(X257) = 1/(a3 + abc) : 1/(b3 + abc) : 1/(c3 + abc)
+Trilinears(X258) = 1/(cos B/2 + cos C/2 - cos A/2) : :
+Trilinears(X259) = cos A/2 : :
+Trilinears(X260) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A/2)/(cos B/2 + cos C/2)
+Trilinears(X261) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = [(csc A)(sec(B/2 - C/2))]2
+Trilinears(X262) = sec(A - &omega) : sec(B - &omega) : sec(C - &omega)
+Trilinears(X263) = a2sec(A - &omega) : :
+Trilinears(X264) = csc A csc 2A : csc B csc 2B : csc C csc 2C
+Trilinears(X265) = sin 2A csc 3A : :
+Trilinears(X266) = sin A/2 : sin B/2 : sin C/2
+Trilinears(X267) = 1/[b3 + c3 - a3 + (b + c - a)(bc + ca + ab)] : :
+Trilinears(X268) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A cot A/2)/(-1 - cos A + cos B + cos C)
+Trilinears(X269) = tan2A/2 : tan2B/2 : tan2C/2
+Trilinears(X270) = (sec A)/[1 + cos(B - C)] : (sec B)/[1 + cos(C - A)] : (sec C)/[1 + cos(A - B)]
+Trilinears(X271) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cot A cot A/2)/(-1 - cos A + cos B + cos C)
+Trilinears(X272) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = 1/[(sin A + sin(A - B) + sin(A - C))(sin B + sin C)]
+Trilinears(X273) = sec A sec2(A/2) : sec B sec2(B/2) : sec C sec2(C/2)
+Trilinears(X274) = b2c2/(b + c) : :
+Trilinears(X275) = csc 2A sec(B - C) : csc 2B sec(C - A) : csc 2C sec(A - B)
+Trilinears(X276) = csc3A sec A sec(B - C) : csc3B sec B sec(C - A) : csc3C sec C sec(A - B)
+Trilinears(X277) = f(A,B,C) : f(B,C,A) : f(C,A,B), where
+Trilinears(X278) = sec A tan A/2 : sec B tan B/2 : sec C tan C/2
+Trilinears(X279) = csc A tan2A/2 : csc B tan2B/2 : csc Ctan2C/2
+Trilinears(X280) = (csc2A/2)/(-1 - cos A + cos B + cos C)
+Trilinears(X281) = sec A cot A/2 : sec B cot B/2 : sec C cot C/2
+Trilinears(X282) = (cot A/2)/(-1 - cos A + cos B + cos C) : :
+Trilinears(X283) = (cos A)/(cos B + cos C) : (cos B)/(cos C + cos A) : (cos C)/(cos A + cos B)
+Trilinears(X284) = (sin A)/(cos B + cos C) : (sin B)/(cos C + cos A) : (sin C)/(cos A + cos B)
+Trilinears(X285) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = 1/[(cos B + cos C)(-1 - cos A + cos B + cos C)]
+Trilinears(X286) = (csc 2A)/(sin B + sin C) : (csc 2B)/(sin C + sin A) : (csc 2C)/(sin A + sin B)
+Trilinears(X287) = cot A sec(A + &omega) : cot B sec(B + &omega) : cot C sec(C + &omega)
+Trilinears(X288) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = [sec(B - C)]/[b cos(C - A) + c cos(B - A)]
+Trilinears(X289) = (sin A/2)/(cos B/2 + cos C/2 - cos A/2) : :
+Trilinears(X290) = csc2A sec(A + &omega) : :
+Trilinears(X291) = 1/(a2 - bc) : 1/(b2 - ca) : 1/(c2 - ab)
+Trilinears(X292) = a/(a2 - bc) : b/(b2 - ca) : c/(c2 - ab)
+Trilinears(X293) = cos A sec(A + &omega) : cos B sec(B + &omega) : cos C sec(C + &omega)
+Trilinears(X294) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)/(b2 + c2 - ab - ac)
+Trilinears(X295) = (cos A)/(a2 - bc) : (cos B)/(b2 - ca) : (cos C)/(c2 - ab)
+Trilinears(X296) = f(A,B,C) : f(B,C,A) : f(C,A,B), where: f(A,B,C) = (cos A)/[cos2A - cos B cos C]
+Trilinears(X297) = csc 2A cos(A + &omega) : csc 2B cos(B + &omega) : csc 2C cos(C + &omega)
+Trilinears(X298) = csc2A sin(A + &pi/3) : csc2B sin(B + &pi/3) : csc2C sin(C + &pi/3)
+Trilinears(X299) = csc2A sin(A - &pi/3) : csc2B sin(B - &pi/3) : csc2C sin(C - &pi/3)
+Trilinears(X300) = csc2A csc(A + &pi/3) : csc2B csc(B + &pi/3) : csc2C csc(C + &pi/3)
+Trilinears(X301) = csc2A csc(A - &pi/3) : csc2B csc(B - &pi/3) : csc2C csc(C - &pi/3)
+Trilinears(X302) = csc2A sin(A + &pi/6) : csc2B sin(B + &pi/6) : csc2C sin(C + &pi/6)
+Trilinears(X303) = csc2A sin(A - &pi/6) : csc2B sin(B - &pi/6) : csc2C sin(C - &pi/6)
+Trilinears(X304) = (cot A)csc2A : (cot B)csc2B : (cot C)csc2C
+Trilinears(X305) = b4c4cos A : c4a4cos B : a4b4cos C
+Trilinears(X306) = (b2c2)(b + c)cos A : (c2a2)(c + a)cos B : (a2b2)(a + b)cos C
+Trilinears(X307) = b2c2(b + c)(cos A)/(b + c - a)
+Trilinears(X308) = b3c3/(b2 + c2) : :
+Trilinears(X309) = (csc2A)/(-1 - cos A + cos B + cos C) : :
+Trilinears(X310) = b3c3/(b + c) : c3a3/(c + a) : a3b3/(a + b)
+Trilinears(X311) = csc2A cos(B - C) : :
+Trilinears(X312) = (b + c - a)b2c2 : (c + a - b)c2a2 : (a + b - c)a2b2
+Trilinears(X313) = (b + c)b3c3 : (c + a)c3a3 : (a + b)a3b3
+Trilinears(X314) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = b2c2(b + c - a)/(b + c)
+Trilinears(X315) = bc(b4 + c4 - a4) : ca(c4 + a4 - b4) : ab(a4 + b4 - c4)
+Trilinears(X316) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(b4 + c4 - a4 - b2c2)
+Trilinears(X317) = sec A cos 2A csc2A : :
+Trilinears(X318) = (1 + sec A)/a2 : :
+Trilinears(X319) = (1 + 2 cos A)/a2 : :
+Trilinears(X320) = (1 - 2 cos A)/a2 : :
+Trilinears(X321) = (b + c)b2c2 : :
+Trilinears(X322) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (-1 - cos A + cos B + cos C)csc2A
+Trilinears(X323) = sin 3A csc2A : sin 3B csc2B : sin 3C csc2C
+Trilinears(X324) = bc sec A cos(B - C) : ca sec B cos(C - A) : ab sec C cos(A - B)
+Trilinears(X325) = csc2A : :
+Trilinears(X326) = cot2A : :
+Trilinears(X327) = csc2A sec(A - &omega) : csc2B sec(B - &omega) : csc2C sec(C - &omega)
+Trilinears(X328) = cot A csc 3A : cot B csc 3B : cot C csc 3C
+Trilinears(X329) = ( -1 - cos A + cos B + cos C)(csc A) : :
+Trilinears(X330) = bc/(ab + ac - bc) : ca/(bc + ba - ca) : ab/(ca + cb - ab)
+Trilinears(X331) = sec2(A/2) csc(2A) : sec2(B/2) csc(2B) : sec2(C/2) csc(2C)
+Trilinears(X332) = (cot A csc A)/(cos B + cos C) : (cot B csc B)/(cos C + cos A) : (cot C csc C)/(cos A + cos B)
+Trilinears(X333) = bc(b + c - a)/(b + c) : ca(c + a - b)/(c + a) : ab(a + b - c)/(a + b)
+Trilinears(X334) = b2c2/(a2 - bc) : c2a2/(b2 - ca) : a2b2/(c2 - ab)
+Trilinears(X335) = bc/(a2 - bc) : ca/(b2 - ca) : ab/(c2 - ab)
+Trilinears(X336) = csc A cot A sec(A + &omega) : csc B cot B sec(B + &omega) : csc C cot C sec(C + &omega)
+Trilinears(X337) = (csc A cot A)/(a2 - bc) : (csc B cot B)/(b2 - ca) : (csc C cot C)/(c2 - ab)
+Trilinears(X338) = (b2 - c2)2/a3 : (c2 - a2)2/b3 : (a2 - b2)2/c3
+Trilinears(X339) = (b2 - c2)2(cos A)/a4 : (c2 - a2)2(cos B)/b4 : (a2 - b2)2(cos C)/c4
+Trilinears(X340) = sec A sin 3A csc3A : :
+Trilinears(X341) = b2c2(b + c - a)2 : c2a2(c + a - b)2 : a2b2(a + b - c)2
+Trilinears(X342) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (csc 2A tan A/2)(1 + cos A - cos B - cos C)
+Trilinears(X343) = cot A cos(B - C) : cot B cos(C - A) : cot C cos(A - B)
+Trilinears(X344) = (csc2A/2)[cos4(B/2) + cos4(C/2) - cos4(A/2)] : :
+Trilinears(X345) = (csc A)/(1 - sec A) : (csc B)/(1 - sec B) : (csc C)/(1 - sec C)
+Trilinears(X346) = bc(b + c - a)2 : :
+Trilinears(X347) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (-1 - cos A + cos B + cos C) sec2(A/2)
+Trilinears(X348) = cot A sec2(A/2) : :
+Trilinears(X349) = (cos B + cos C)csc3A : (cos C + cos A)csc3B : (cos A + cos B) csc3C
+Trilinears(X350) = (a2 - bc)b2c2 : (b2 - ca)c2a2 : (c2 - ab)a2b2
+Trilinears(X351) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(b2 - c2)(b2 + c2 - 2a2)
+Trilinears(X352) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(-a4 - b4 - c4 - 5b2c2 + 4a2b2 + 4a2c2)
+Trilinears(X353) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(4a4 - 2b4 - 2c4 - b2c2 - 4a2b2 -4a2c2)
+Trilinears(X354) = (b - c)2 - ab - ac : :
+Trilinears(X355) = a cos A - (b + c)cos(B - C) : :
+Trilinears(X356) = cos A/3 + 2 cos B/3 cos C/3 : :
+Trilinears(X357) = sec A/3 : sec B/3 : sec C/3
+Trilinears(X358) = cos A/3 : cos B/3 : cos C/3
+Trilinears(X359) = a/A : b/B : c/C
+Trilinears(X360) = A/a : B/b : C/c
+Trilinears(X361) = csc B/2 + csc C/2 - csc A/2 : csc C/2 + csc A/2 - csc B/2 : csc A/2 + csc B/2 - csc C/2
+Trilinears(X362) = b cos B/2 + c cos C/2 - a cos A/2
+Trilinears(X363) = b/(1 + sin B/2) + c/(1 + sin C/2) - a/(1 + sin A/2) : :
+Trilinears(X364) = b1/2 + c1/2 - a1/2 : :
+Trilinears(X365) = a1/2 : b1/2 : c1/2
+Trilinears(X366) = a-1/2 : b-1/2 : c-1/2
+Trilinears(X367) = b1/2 + c1/2 : c1/2 + a1/2 : a1/2 + b1/2
+Trilinears(X368) = (reasonable trilinears are sought)
+Trilinears(X369) = x : y : z (see below)
+Trilinears(X370) = (see below)
+Trilinears(X371) = cos(A - &pi/4) : :
+Trilinears(X372) = cos(A + &pi/4) : :
+Trilinears(X373) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 2bc + ac cos C + ab cos B
+Trilinears(X374) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 2b + 2c - 3a + (c + a)cos C + (b + a)cos B
+Trilinears(X375) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 2bc(b + c) + ca(c + a)cos C + ab(a + b)cos B
+Trilinears(X376) = 5 cos A - cos(B - C) : 5 cos B - cos(C - A) : 5 cos C - cos(A - B)
+Trilinears(X377) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(b4 + c4 - a4 - 2b2c2 - 2abc(a + b + c))
+Trilinears(X378) = sec A + 2 cos A : sec B + 2 cos B : sec C + 2 cos C
+Trilinears(X379) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc[a5 + (b + c)(bca2 - (bc + ca + ab)(b - c)2)]
+Trilinears(X380) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)[3a3 + (b + c)(3a2 + (b - c)2 + a(b + c))]
+Trilinears(X381) = 2 cos(B - C) - cos A : :
+Trilinears(X382) = cos A - 4 cos B cos C : cos B - 4 cos C cos A : cos C - 4 cos A cosB
+Trilinears(X383) = f(A,B,C) : f(B,C,A) : f(C,A,B), where
+Trilinears(X384) = bc(a4 + b2c2) : ca(b4 + c2a2) : ab(c4 + a2b2)
+Trilinears(X385) = bc(a4 - b2c2) : :
+Trilinears(X386) = a(b2 + c2 + bc + ca + ab) : :
+Trilinears(X387) = bc[-a4 + 2a2(a + b + c)2 + (b2 - c2)2]
+Trilinears(X388) = bc[a2 + (b + c)2]/(b + c - a)
+Trilinears(X389) = cos A - cos 2A cos(B - C) : cos B - cos 2B cos(C - A) : cos C - cos 2C cos(A - B) : :
+Trilinears(X390) = bc(b + c - a)[3a2 + (b - c)2]
+Trilinears(X391) = bc(3a + b + c)(b + c - a) : :
+Trilinears(X392) = (b + c)(b2 + c2 - a2) + 4abc : :
+Trilinears(X393) = bc tan2A : ca tan2B : ab tan2C
+Trilinears(X394) = cos A cot A : cos B cot B : cos C cot C
+Trilinears(X395) = cos(B - C) + 2 cos(A + &pi/3) : :
+Trilinears(X396) = cos(B - C) + 2 cos(A - &pi/3) : :
+Trilinears(X397) = cos(B - C) - 2 cos(A + &pi/3) : :
+Trilinears(X398) = cos(B - C) - 2 cos(A - &pi/3) : :
+Trilinears(X399) = 5 cos A - 4 cos B cos C - 8 sin B sin C cos2A : :
+Trilinears(X400) = csc4(A/4) : csc4(B/4) : csc4(C/4)
+Trilinears(X401) = [sin 2B sin 2C - sin2(2A)](csc A) : :
+Trilinears(X402) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = p(a,b,c)y(a,b,c)/a, polynomials p and y as given below
+Trilinears(X403) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (sec A)(1 + cos 2B + cos 2C)
+Trilinears(X404) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(a + b + c) - a(b2 + c2 - a2)
+Trilinears(X405) = bc(a + b + c) + abc cos A : :
+Trilinears(X406) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(a + b + c) + abc sec A
+Trilinears(X407) = (v + w)sec A : (w + u)sec B : (u + v)sec C, where: u : v : w = X(21) e.g., u = u(A,B,C) = 1/(cos B + cos C)
+Trilinears(X408) = (v + w)cos A : (w + u)cos B : (u + v)cos C, where: u : v : w = X(29) e.g., u = u(A,B,C) = (sec A)/(cos B + cos C)p>Barycentrics(v + w)sin 2A : (w + u)sin 2B : (u + v)sin2C</p>
+Trilinears(X409) = u2 + vw : v2 + wu : w2 + uv, where u : v : w = X(21) e.g., u = u(A,B,C) = 1/(cos B + cos C)
+Trilinears(X410) = u2 + vw : v2 + wu : w2 + uv, where: u : v : w = X(29) e.g., u = u(A,B,C) = (sec A)/(cos B + cos C)
+Trilinears(X411) = (1/v)2 + (1/w)2 - (1/u)2 : (1/w)2 + (1/u)2 - (1/v)2 : (1/u)2 + (1/v)2 - (1/w)2, where: u : v : w = X(21) e.g., u = u(A,B,C) = 1/(cos B + cos C)
+Trilinears(X412) = (1/v)2 + (1/w)2 - (1/u)2 : (1/w)2 + (1/u)2 - (1/v)2 : (1/u)2 + (1/v)2 - (1/w)2, where: u : v : w = X(29) e.g., u = u(A,B,C) = (sec A)/(cos B + cos C)
+Trilinears(X413) = u3(v2 + w2 - vw) : v3(w2 + u2 - wu) : w3(u2 + v2 - uv), where: u : v : w = X(21) e.g., u = u(A,B,C) = 1/(cos B + cos C)
+Trilinears(X414) = u3(v2 + w2 - vw) : v3(w2 + u2 - wu) : w3(u2 + v2 - uv), where: u : v : w = X(29) e.g., u = u(A,B,C) = (sec A)1/(cos B + cos C)
+Trilinears(X415) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(21) e.g., u = u(A,B,C) = 1/(cos B + cos C)
+Trilinears(X416) = (u2 - vw)cos A : (v2 - wu)cos B : (v2 - uv)cos C, where: u : v : w = X(29) e.g., u = u(A,B,C) = (sec A)/(cos B + cos C)
+Trilinears(X417) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(sec2B + sec2C)
+Trilinears(X418) = (cos A)(csc 2B + csc 2C) : :
+Trilinears(X419) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(31) e.g., u = u(A,B,C) = a2
+Trilinears(X420) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(38) e.g., u = u(a,b,c) = b2 + c2
+Trilinears(X421) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(47) e.g., u = u(A,B,C) = cos 2A
+Trilinears(X422) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(58) e.g., u = u(a,b,c) = a/(b + c)
+Trilinears(X423) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(81) e.g., u = u(a,b,c) = 1/(b + c)
+Trilinears(X424) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(191) e.g., u = u(a,b,c) = (b + c - a)(bc + ca + ab) + b3 + c3 - a3
+Trilinears(X425) = (u2 - vw)sec A : (v2 - wu)sec B : (v2 - uv)sec C, where: u : v : w = X(283) e.g., u = u(A,B,C) = (cos A)/(cos B + cos C)
+Trilinears(X426) = (v2 + w2)cos A : (w2 + u2)cos B : (u2 + v2)cos C, where
+Trilinears(X427) = sec A + cos(B - C)
+Trilinears(X428) = 3 sec A - csc A tan &omega : :
+Trilinears(X429) = (v + w)sec A : (w + u)sec B : (u + v)sec C, where: u : v : w = X(58) e.g., u = u(a,b,c) = a/(b + c)
+Trilinears(X430) = (v + w)sec A : (w + u)sec B : (u + v)sec C, where: u : v : w = X(81) e.g., u = u(a,b,c) = 1/(b + c)
+Trilinears(X431) = (v + w)sec A : (w + u)sec B : (u + v)sec C, where: u : v : w = X(283) e.g., u = u(A,B,C) = (cos A)/(cos B + cos C)
+Trilinears(X432) = (v2 + w2)sec A : (w2 + u2)sec B : (u2 + v2)sec C, where: u : v : w = X(155) e.g., u = u(A,B,C) = (cos A)(cos2B + cos2C - cos2A)
+Trilinears(X433) = (v2 + w2)sec A : (w2 + u2)sec B : (u2 + v2)sec C, where u : v : w = X(159)
+Trilinears(X434) = (v2 + w2)sec A : (w2 + u2)sec B : (u2 + v2)sec C, where u : v : w = X(195)
+Trilinears(X435) = (v2 + w2)sec A : (w2 + u2)sec B : (u2 + v2)sec C, where u : v : w = X(399)
+Trilinears(X436) = (u2 + vw)sec A : (v2 + wu)sec B : (w2 + uv)sec C, where: u : v : w = X(48) e.g., u(A,B,C) = sin 2A
+Trilinears(X437) = (u2 + vw)sec A : (v2 + wu)sec B : (w2 + uv)sec C, where u : v : w = X(214)
+Trilinears(X438) = (u2 + vw)csc A : (v2 + wu)csc B : (w2 + uv)csc C, where: u : v : w = X(204) e.g., u(A,B,C) = (tan A)(tan B + tan C - tan A)
+Trilinears(X439) = au2 : bv2 : cw2, where: u : v : w = X(193) e.g., u(A,B,C) = (csc A)(cot B + cot C - cot A)
+Trilinears(X440) = bc(v + w) : ca(w + u) : ab(u + v), where: u : v : w = X(28) e.g., u(a,b,c) = (tan A)/(b + c)
+Trilinears(X441) = bc(v + w) : ca(w + u) : ab(u + v), where: u : v : w = X(240) e.g., u(A,B,C) = sec A cos(A + &omega)
+Trilinears(X442) = bc(v + w) : ca(w + u) : ab(u + v), where: u : v : w = X(284) e.g., u(A,B,C) = (sin A)/(cos B + cos C)
+Trilinears(X443) = bc(v + w) : ca(w + u) : ab(u + v), where: u : v : w = X(380)
+Trilinears(X444) = (v + w)tan A : (w + u)tan B : (u + v)tan C, where: u : v : w = X(256) e.g., u(a,b,c) = 1/(a2 + bc)
+Trilinears(X445) = (v + w)csc 2A : (w + u)csc 2B : (u + v)csc 2C, where: u : v : w = X(79) e.g., u(a,b,c) = 1/(1 + 2 cos A)
+Trilinears(X446) = u(v2 + w2) : v(w2 + u2) : w(u2 + v2), where: u : v : w = X(98) e.g., u(A,B,C) = sec(A + &omega)
+Trilinears(X447) = bc(u2 - vw) : ca(v2 - wu) : ab(w2 - uv), where: u : v : w = X(28) e.g., u(a,b,c) = (tan A)/(b + c)
+Trilinears(X448) = bc(u2 - vw) : ca(v2 - wu) : ab(w2 - uv), where: u : v : w = X(284) e.g., u(A,B,C) = (sin A)/(cos B + cos C)
+Trilinears(X449) = bc(u2 - vw) : ca(v2 - wu) : ab(w2 - uv), where u : v : w = X(380)
+Trilinears(X450) = (sec A)[cos4A - (cos B cos C)2] : :
+Trilinears(X451) = u sec A : v sec B : w sec C, where u : v : w = X(191)
+Trilinears(X452) = u csc A : v csc B : w csc C, where u : v : w = X(380)
+Trilinears(X453) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C)=(cos B + cos C - cos A)2/(cos B + cos C)
+Trilinears(X454) = u2sec A : v2sec B : w2sec C, where: u : v : w = X(155) e.g., u(A,B,C) = (cos A)[cos2B + cos2C - cos2A]
+Trilinears(X455) = u2sec A : v2sec B : w2sec C, where u : v : w = X(159)
+Trilinears(X456) = u2sec A : v2sec B : w2sec C, where u : v : w = X(195)
+Trilinears(X457) = u2sec A : v2sec B : w2sec C, where u : v : w = X(399)
+Trilinears(X458) = u csc 2A : v csc 2B : w csc 2C, where: u : v : w = X(182) e.g. u(A,B,C) = cos(A - &omega)
+Trilinears(X459) = (sec A)/(tan B + tan C - tan A) : :
+Trilinears(X460) = (sec A)[a2(2a2 - b2 - c2) + (b2 - c2)2] : :
+Trilinears(X461) = u tan A : v tan B : w tan C, where: u : v : w = X(391) e.g., u(a,b,c) = bc(3a + b + c)(b + c - a)
+Trilinears(X462) = u tan A : v tan B : w tan C, where: u : v : w = X(395) e.g., u(A,B,C) = cos(B - C) + 2 cos(A + &pi/3)
+Trilinears(X463) = u tan A : v tan B : w tan C, where: u : v : w = X(396) e.g., u(A,B,C) = cos(B - C) + 2 cos(A - &pi/3)
+Trilinears(X464) = u cot A : v cot B : w cot C, where u : v : w = X(387)
+Trilinears(X465) = u cot A : v cot B : w cot C, where: u : v : w = X(397) e.g., u(A,B,C) = cos(B - C) - 2 cos(A + &pi/3)
+Trilinears(X466) = u cot A : v cot B : w cot C, where: u : v : w = X(398) e.g., u(A,B,C) = cos(B - C) - 2 cos(A - &pi/3)
+Trilinears(X467) = u csc 2A : v csc 2B : w csc 2C, where: u : v : w = X(52) e.g., u(A,B,C) = cos 2A cos(B - C)
+Trilinears(X468) = (sec A)(cot B + cot C - 2 cot A) : :
+Trilinears(X469) = u csc 2A : v csc 2B : w csc 2C, where: u : v : w = X(386) e.g., u(a,b,c) = a(b2 + c2 + bc + ca + ab)
+Trilinears(X470) = sin(A + &pi/3) csc 2A : sin(B + &pi/3) csc 2B : sin(C + &pi/3) csc 2C
+Trilinears(X471) = sin(A - &pi/3) csc 2A : sin(B - &pi/3) csc 2B : sin(C - &pi/3) csc 2C
+Trilinears(X472) = cos(A + &pi/3) csc 2A : cos(B + &pi/3) csc 2B : cos(C + &pi/3) csc 2C
+Trilinears(X473) = cos(A - &pi/3) csc 2A : cos(B - &pi/3) csc 2B : cos(C - &pi/3) csc 2C
+Trilinears(X474) = cos A - (a + b + c)/a : cos B - (a + b + c)/b : cos C - (a + b + c)/c
+Trilinears(X475) = sec A - (a + b + c)/a : sec B - (a + b + c)/b : sec C - (a + b + c)/c
+Trilinears(X476) = 1/[(1 + 2 cos 2A) sin(B - C)] : :
+Trilinears(X477) = 1/[4 cos A + cos(A - 2B) + cos(A - 2C) - 3 cos(B - C)] : :
+Trilinears(X478) = a[a4 - 2abc(b + c - a) - (b2 - c2)2]/(b + c - a) : :
+Trilinears(X479) = (tan A/2 sec A/2)2 : :
+Trilinears(X480) = (cot A/2 cos A/2)2 : :
+Trilinears(X481) = 1 - 2 sec A/2 cos B/2 cos C/2 : :
+Trilinears(X482) = 1 + 2 sec A/2 cos B/2 cos C/2 : :
+Trilinears(X483) = sec2A/4 : sec2B/4 : sec2C/4
+Trilinears(X484) = 1 + 2(cos A - cos B - cos C) : 1 + 2(cos B - cos C - cos A) : 1 + 2(cos C - cos A - cos B)
+Trilinears(X485) = sec(A - &pi/4) : sec(B - &pi/4) : sec(C -&pi/4)
+Trilinears(X486) = sec(A + &pi/4) : sec(B + &pi/4) : sec(C + &pi/4)
+Trilinears(X487) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 - csc A sin B sin C)
+Trilinears(X488) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 + csc A sin B sin C)
+Trilinears(X489) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 - csc A sin B sin C) - cos B cos C
+Trilinears(X490) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 + csc A sin B sin C) - cos B cos C
+Trilinears(X491) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 - csc A sin B sin C) + cos B cos C
+Trilinears(X492) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A)(1 + csc A sin B sin C) + cos B cos C
+Trilinears(X493) = 1/(sin A + sin B sin C) : :
+Trilinears(X494) = 1/(sin A - sin B sin C) : :
+Trilinears(X495) = 2 + cos(B - C) : 2 + cos(C - A) : 2 + cos(A - B)
+Trilinears(X496) = 2 - cos(B - C) : 2 - cos(C - A) : 2 - cos(A - B)
+Trilinears(X497) = 1 - cos B cos C : 1 - cos C cos A : 1 - cos A cos B
+Trilinears(X498) = 1 + 2 sin B sin C : 1 + 2 sin C sin A : 1 + 2 sin A sin B
+Trilinears(X499) = 1 - 2 sin B sin C : 1 - 2 sin C sin A : 1 - 2 sin A sin B
+Trilinears(X500) = a(b2 +c2 - a2 + bc)[2abc + (b + c)(a2 - (b - c)2)] : :
+Trilinears(X501) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = a[a3 - b3 - c3 - bc(a + b + c) + ab(a - b) + ac(a - c)]/(b + c)
+Trilinears(X502) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(b + c)/[a3 - b3 - c3 - bc(a + b + c) + ab(a - b) + ac(a - c)]
+Trilinears(X503) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec B/2 + sec C/2 - sec A/2
+Trilinears(X504) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = b sin B/2 + c sin C/2 - a sin A/2
+Trilinears(X505) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/(sin B/2 + sin C/2 - sin A/2)
+Trilinears(X506) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A/2)-2/3
+Trilinears(X507) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (cos A/2)-1/2
+Trilinears(X508) = a-1/2sec(A/2) : b-1/2sec(B/2) : c-1/2sec(C/2)
+Trilinears(X509) = (tan A/2)1/2 : :
+Trilinears(X510) = b3/2 + c3/2 - a3/2 : :
+Trilinears(X511) = cos(A + &omega) : cos(B + &omega) : cos(C + &omega)
+Trilinears(X512) = a(b2 - c2) : :
+Trilinears(X513) = b - c : c - a : a - b
+Trilinears(X514) = (b - c)/a : :
+Trilinears(X515) = (b + c)sec A - b sec B - c sec C :
+Trilinears(X516) = bc[(a - b) cot C + (a - c) cot B] : :<brTrilinears a^2 - b^2 cos C - c^2 cos B : :
+Trilinears(X517) = -1 + cos B + cos C : -1 + cos C + cos A : -1 + cos A + cos B
+Trilinears(X518) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = ab + ac - b2 - c2
+Trilinears(X519) = (2a - b - c)/a : (2b - c - a)/b : (2c - a - b)/c
+Trilinears(X520) = (cos A)(sin 2B - sin 2C) : (cos B)(sin 2C - sin 2A) : (cos C)(sin 2A - sin 2B)
+Trilinears(X521) = (sec B - sec C)(csc A) : (sec C - sec A)(csc B) : (sec A - sec B)(csc C)
+Trilinears(X522) = (cos B - cos C)(csc A) : (cos C - cos A)(csc B) : (cos A - cos B)(csc C)
+Trilinears(X523) = sin(B -C) : sin(C - A) : sin(A - B)
+Trilinears(X524) = (2a2 - b2 - c2)/a : (2b2 - c2 - a2)/b : :
+Trilinears(X525) = (b cos B - c cos C)/a : (c cos C - a cos A)/b : (a cos A - b cos B)/c
+Trilinears(X526) = (1 + 2 cos 2A)sin(B - C) : :
+Trilinears(X527) = (2ax - by - cz)/a, where x = x(a,b,c) = 1/[a(b + c - a)], y = x(b,c,a), z = x(c,a,b)
+Trilinears(X528) = (2ax - by - cz)/a, where x = x(A,B,C) = 1 - cos(B-C), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X529) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = 1 + cos(B-C), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X530) = (2ax - by - cz)/a : : , where x = x(A,B,C) = csc(A + &pi/3), y = x(B,C,A), z = x(C,A,B)</p>
+Trilinears(X531) = (2ax - by - cz)/a : : where x = x(A,B,C) = csc(A - &pi/3), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X532) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = csc(A + &pi/6), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X533) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = csc(A - &pi/6), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X534) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = tan A, y = x(B,C,A), z = x(C,A,B)
+Trilinears(X535) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = 1 - 2 cos A, y = x(B,C,A), z = x(C,A,B)
+Trilinears(X536) = (2ax - by - cz)/a, where x = x(a,b,c) = b + c, y = x(b,c,a), z = x(c,a,b)
+Trilinears(X537) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(a,b,c) = b2 + c2, y = x(b,c,a), z = x(c,a,b)
+Trilinears(X538) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(a,b,c) = a(b2 + c2), y = x(b,c,a), z = x(c,a,b)
+Trilinears(X539) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = 1/cos(B-C), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X540) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(a,b,c) = a/(b + c), y = x(b,c,a), z = x(c,a,b)
+Trilinears(X541) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(A,B,C) = 1/(cos A - 2 cos B cos C), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X542) = (2ax - by - cz)/a : : , where x = x(A,B,C) = sec(A + &omega), y = x(B,C,A), z = x(C,A,B)
+Trilinears(X543) = (2ax - by - cz)/a, x = x(a,b,c) = bc/(b2 - c2), where x : y : z = X(99)
+Trilinears(X544) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(a,b,c) = a/(b - c), y = x(b,c,a), z = x(c,a,b)
+Trilinears(X545) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = (2ax - by - cz)/a, x = x(a,b,c) = bc/(b - c), y = x(b,c,a), z = x(c,a,b)
+Trilinears(X546) = 3 cos(B - C) - 2 cos A : :
+Trilinears(X547) = 5 cos(B - C) + 2 cosA : :
+Trilinears(X548) = - cos(B - C) + 6 cos A : :
+Trilinears(X549) = cos(B - C) + 4 cosA : :
+Trilinears(X550) = - cos(B - C) + 4 cos A : :
+Trilinears(X551) = (4a + b + c)/a : (4b + c + a)/b : (4c + a + b)/c
+Trilinears(X552) = 1/[a(b + c - a)(b + c)2] : 1/[b(c +a - b)(c + a)2] : 1/[c(a + b - c)(a + b)2]
+Trilinears(X553) = bc(2a + b + c)/(b + c - a) : ca(2b + c + a)/(c + a - b) : ab(2c + a + b)/(a + b - c)
+Trilinears(X554) = sec(A/2) csc(A/2 + &pi/3) : sec(B/2) csc(B/2 + &pi/3) : sec(C/2) csc(C/2 + &pi/3)
+Trilinears(X555) = sec3(A/2) : sec3(B/2) : sec3(C/2)
+Trilinears(X556) = csc A csc A/2 : csc B csc B/2 : csc C csc C/2
+Trilinears(X557) = sec A/2 cot A/4 : sec B/2 cot B/4 : sec C/2 cot C/4
+Trilinears(X558) = sec A/2 tan A/4 : sec B/2 tan B/4 : sec C/2 tan C/4
+Trilinears(X559) = (sec A/2) sin(A/2 + &pi/3) : (sec B/2) sin(B/2 + &pi/3) : (sec C/2) sin(C/2 + &pi/3)
+Trilinears(X560) = a4 : b4 : c4
+Trilinears(X561) = a - 4 : b - 4 : c - 4
+Trilinears(X562) = csc A tan 3A : csc B tan 3B : csc C tan 3C
+Trilinears(X563) = sin 4A : sin 4B : sin 4C
+Trilinears(X564) = cos(2B - 2C) : cos(2C - 2A) : cos(2A - 2B)
+Trilinears(X565) = cos(3B - 3C) : cos(3C - 3A) : cos(3A - 3B)
+Trilinears(X566) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin A + cos A cot D/2, where cot D/2 = 4*area/(a2 + b2 + c2 - 6R2), where R = abc/(4*area)
+Trilinears(X567) = cos(B - C) + 2 cos(C - A)cos(A - B) : :
+Trilinears(X568) = sin A + cos A cot D/2, where where cot D/2 = (6R2 - a2 - b2 - c2)/(4*area) and R = abc/(4*area)
+Trilinears(X569) = sin A + cot D/2 cos A : :,
+Trilinears(X570) = sin A + sin 2A cos(B - C) : : (Joe Goggins, 11/26/08)
+Trilinears(X571) = sin A cos 2A (M. Iliev, 4/12/07)
+Trilinears(X572) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = cos(A - U), where cot U = cot(A/2) cot(B/2) cot(C/2) (Joe Goggins, 11/26/08)
+Trilinears(X573) = cos(A + U) : : , where cot U = cot(A/2) cot(B/2) cot(C/2) (Joe Goggins, 11/26/08)
+Trilinears(X574) = sin A + cot D/2 cos A, where cot(D/2) = 12*area/(a2 + b2 + c2)
+Trilinears(X575) = sin A + cot D/2 cos A, where cot(D/2) = (a2 + b2 + c2)/(12*area)
+Trilinears(X576) = sin A + cot(D/2) cos A, where cot(D/2) = - (a2 + b2 + c2)/(12*area)
+Trilinears(X577) = sin A cos2A : :
+Trilinears(X578) = sin A + cot D/2 cos A, where cot(D/2) = (a2b2c2 cos A cos B cos C)/[8*(area)3]
+Trilinears(X579) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(a2b + a2c + abc - b3 - c3) (M.Iliev, 5/13/07)
+Trilinears(X580) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin A + cot D/2 cos A,
+Trilinears(X581) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin A + cot D/2 cos A,
+Trilinears(X582) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin A + cot D/2 cos A,
+Trilinears(X583) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(a2b + a2c + 2abc - b3 - c3) (M.Iliev, 5/13/07)
+Trilinears(X584) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a(ab2 + ac2 + bc2 + b2c + 2abc - a3) (M.Iliev, 5/13/07)
+Trilinears(X585) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2*area*(1/b + 1/c - 1/a) + b + c - a]/a
+Trilinears(X586) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2*area*(1/b + 1/c - 1/a) + a - b - c]/a
+Trilinears(X587) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc[2(a + b + c) + (a - b - c) tan A]
+Trilinears(X588) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a/(a2 + 4*area(ABC))
+Trilinears(X589) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a/(a2 - 4*area(ABC))
+Trilinears(X590) = (a2 + 4*area(ABC))/a : :
+Trilinears(X591) = bc[b2 + c2 - 2a2 + 4*area(ABC)]
+Trilinears(X592) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/[cos A + 2 cos(B - &omega) cos(C - &omega)]
+Trilinears(X593) = a/(b + c)2 : b/(c + a)2 : c/(a + b)2
+Trilinears(X594) = (b + c)2/a : (c + a)2/b : (a + b)2/c
+Trilinears(X595) = r + R*(cos 2A - 1) : :
+Trilinears(X596) = 1/[a(a2 + ab + ac - bc)] : 1/[b(b2 + bc + ba - ca)] : 1/[c(c2 + ca + cb - ab)]
+Trilinears(X597) = (4a2 + b2 + c2)/a : (4b2 + c2 + a2)/b : (4c2 + a2 + b2)/c
+Trilinears(X598) = bc/(a2 - 2b2 - 2c2) : ca/(b2 - 2c2 - 2a2) : ab/(c2 - 2a2 - 2b2)
+Trilinears(X599) = bc(a2 - 2b2 - 2c2) : ca(b2 - 2c2 - 2a2) : ab(c2 - 2a2 - 2b2)
+Trilinears(X601) = sin2A + cos A : sin2B + cos B : sin2C + cos C
+Trilinears(X602) = sin2A - cos A : sin2B - cos B : sin2C - cos C
+Trilinears(X603) = cos2A - cos A : :
+Trilinears(X604) = a(1 - cos A) : b(1 - cos B) : c(1 - cos C)
+Trilinears(X605) = a(1 + sin A) : b(1 + sin B) : c(1 + sin c)
+Trilinears(X606) = a(1 - sin A) : b(1 - sin B) : c(1 - sin c)
+Trilinears(X607) = a(1 + sec A) : b(1 + sec B) : c(1 + sec c)
+Trilinears(X608) = a(1 - sec A) : b(1 - sec B) : c(1 - sec c)
+Trilinears(X609) = area + a2 sin A : area + b2 sin B : area + c2 sin C
+Trilinears(X610) = area - a2 cot A : area - b2 cot B : area - c2cot C
+Trilinears(X611) = D + sin A : D + sin B : D + sin C, where D = (a2 + b2 + c2)/(4*area)
+Trilinears(X612) = a2 + b2 + c2 + 2bc (M. Iliev, 5/13/2007)
+Trilinears(X613) = W - sin A : W - sin B : W - sin C, where W = (a2 + b2 + c2)/(4*area)
+Trilinears(X614) = a2 + b2 + c2 - 2bc (M. Iliev, 5/13/07)
+Trilinears(X615) = (a2 - 4*area)/a : :
+Trilinears(X616) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [S<sub>B</sub>S<sub>C</sub> - 2S<sub>A</sub>(a2 + sqr(3) area)]/a
+Trilinears(X617) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [S<sub>B</sub>S<sub>C</sub> - 2S<sub>A</sub>(a2 - sqr(3) area)]/a
+Trilinears(X618) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + 5S<sub>A</sub>a2 + 2 sqr(3)(b2 + c2) area]/a
+Trilinears(X619) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + 5S<sub>A</sub>a2 - 2 sqr(3) (b2 + c2) area]/a
+Trilinears(X620) = [4S<sub>A</sub>a2 - (b4 + c4)]/a : :
+Trilinears(X621) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [sqr(3) S<sub>B</sub>S<sub>C</sub> + 2S<sub>A</sub> area]/a
+Trilinears(X622) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [sqr(3) S<sub>B</sub>S<sub>C</sub> - 2S<sub>A</sub> area]/a
+Trilinears(X623) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [2(b2 + c2) area + sqr(3) (S<sub>A</sub>a2 + 2S<sub>B</sub>S<sub>C</sub>)]/a
+Trilinears(X624) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [2(b2 + c2) area - sqr(3)(a2S<sub>A</sub> + 2S<sub>B</sub>S<sub>C</sub>)]/a
+Trilinears(X625) = [2(b4 + c4 - b2c2) - a2(b2 + c2)]/a : :
+Trilinears(X626) = (b4 + c4)/a : (c4 + a4)/b: (a4 + b4)/c
+Trilinears(X627) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [S<sub>B</sub>S<sub>C</sub> + 2S<sub>A</sub>(a2 + sqr(3) area)]/a
+Trilinears(X628) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [S<sub>B</sub>S<sub>C</sub> + 2S<sub>A</sub>(a2 - sqr(3) area)]/a
+Trilinears(X629) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [6S<sub>B</sub>S<sub>C</sub> + 7S<sub>A</sub>a2 + 2 sqr(3) (b2 + c2) area]/a
+Trilinears(X630) = f(a,b,c) : f(b,c,a) : f(c,a,b), where: f(a,b,c) = [6S<sub>B</sub>S<sub>C</sub> + 7S<sub>A</sub>a2 - 2 sqr(3) (b2 + c2) area]/a
+Trilinears(X631) = 2 cos A + cos B cos C : 2 cos B + cos C cos A : 2 cos C + cos A cos B
+Trilinears(X632) = (6S<sub>B</sub>S<sub>C</sub> + 7S<sub>A</sub>a2)/a
+Trilinears(X633) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (S<sub>B</sub>S<sub>C</sub> + 2 sqr(3) S<sub>A</sub> area)/a
+Trilinears(X634) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (S<sub>B</sub>S<sub>C</sub> - 2 sqr(3) S<sub>A</sub> area)/a
+Trilinears(X635) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + S<sub>A</sub>a2 + 2 sqr(3) (b2 + c2) area]/a
+Trilinears(X636) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + S<sub>A</sub>a2 - 2 sqr(3) (b2 + c2) area]/a
+Trilinears(X637) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (S<sub>B</sub>S<sub>C</sub> + 2S<sub>A</sub> area)/a
+Trilinears(X638) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (S<sub>B</sub>S<sub>C</sub> - 2S<sub>A</sub> area)/a
+Trilinears(X639) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + S<sub>A</sub>a2 + 2(b2 + c2) area]/a
+Trilinears(X640) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + S<sub>A</sub>a2 - 2(b2 + c2) area]/a
+Trilinears(X641) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + 3S<sub>A</sub>a2 + 2(b2 + c2) area]/a
+Trilinears(X642) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = [2S<sub>B</sub>S<sub>C</sub> + 3S<sub>A</sub>a2 - 2(b2 + c2) area]/a
+Trilinears(X643) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)/(b2 - c2)
+Trilinears(X644) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)/(b - c)
+Trilinears(X645) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)/[a(b2 - c2)]
+Trilinears(X646) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)/[a2(b - c)]
+Trilinears(X647) = a(b2 - c2)(b2 + c2 - a2) : :
+Trilinears(X648) = 1/[a(b2 - c2)(b2 + c2 - a2)]
+Trilinears(X649) = a(b - c) : b(c - a) : c(a - b)
+Trilinears(X650) = cos B - cos C : cos C - cos A : cos A - cos B
+Trilinears(X651) = 1/(cos B - cos C) : 1/(cos C - cos A) : 1/(cos A - cos B)
+Trilinears(X652) = sec B - sec C : sec C - sec A : sec A - sec B
+Trilinears(X653) = 1/(sec B - sec C) : 1/(sec C - sec A) : 1/(sec A - sec B)
+Trilinears(X654) = cos(A - B) - cos(C - A) : :
+Trilinears(X655) = 1/[cos(A - B) - cos(C- A)] : :
+Trilinears(X656) = tan B - tan C : tan C - tan A : tan A - tan B
+Trilinears(X657) = (1 + cos A)(cos B - cos C) : :
+Trilinears(X658) = 1/[(1 + cos A)(cos B - cos C)] : :
+Trilinears(X659) = (a2 - bc)(b - c)
+Trilinears(X660) = 1/[(a2 - bc)(b - c)] : :
+Trilinears(X661) = cot B - cot C : cot C - cot A : cot A - cot B
+Trilinears(X662) = 1/(cot B - cot C) : 1/(cot C - cot A) : 1/(cot A - cot B)
+Trilinears(X663) = a(b - c)(b + c - a) : :
+Trilinears(X664) = 1/[a(b - c)(b + c - a)] : :
+Trilinears(X665) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a[(a - b)2(a + b - c) - (c - a)2(c + a - b)]
+Trilinears(X666) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc/[(a - b)2(a + b - c) - (c - a)2(c + a - b)]
+Trilinears(X667) = a2(b - c) : :
+Trilinears(X668) = 1/[a2(b - c)] : :
+Trilinears(X669) = a3(b2 - c2) : :
+Trilinears(X670) = 1/[a3(b2 - c2)] : :
+Trilinears(X671) = 1/[a(2a2 - b2 - c2)] : :
+Trilinears(X672) = a[b2 + c2 - a(b + c)] : :
+Trilinears(X673) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc/[b2 + c2 - a(b + c)]
+Trilinears(X674) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a[b3 + c3 - a(b2 + c2)]
+Trilinears(X675) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc/[b3 + c3 - a(b2 + c2)]
+Trilinears(X676) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = bc(b - c)[b3 + c3 - 2a3 + (b + c)(a2 - bc)]
+Trilinears(X677) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a/{(b - c)[b3 + c3 - 2a3 + (b + c)(a2 - bc)]}
+Trilinears(X678) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - 2a)2
+Trilinears(X679) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/(b + c - 2a)2
+Trilinears(X680) = f(A,B,C): f(B,C,A) : f(C,A,B), where f(A,B,C) = cos2A (sin B cos2B - sin C cos2C)
+Trilinears(X681) = f(A,B,C): f(B,C,A) : f(C,A,B), where f(A,B,C) = (sec2A)/(sin B cos2B - sin C cos2C)
+Trilinears(X682) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec B csc3C + sec C csc3B
+Trilinears(X683) = f(A,B,C): f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/[sec B csc3C + sec C csc3B]
+Trilinears(X684) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec B sin3 C - sec C sin3 B
+Trilinears(X685) = f(A,B,C): f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/(sec B sin3 C - sec C sin3 B)
+Trilinears(X686) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec B csc(A - B) + sec C csc(A - C)
+Trilinears(X687) = f(A,B,C): f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/[sec B csc(A - B) + sec C csc(A - C)]
+Trilinears(X688) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a3(b4 - c4)
+Trilinears(X689) = 1/[a3(b4 - c4)] : :
+Trilinears(X690) = bc(b2 - c2)(2a2 - b2 - c2) : :
+Trilinears(X691) = a/[(b2 - c2)(2a2 - b2 - c2)] : :
+Trilinears(X692) = a2/(b - c) : b2/(c - a) : c2/(a - b)
+Trilinears(X693) = (b - c)/a2 : (c - a)/b2 : (a - b)/c2
+Trilinears(X694) = a/(a4 - b2c2) : :
+Trilinears(X695) = a/(a4 + b2c2) : :
+Trilinears(X696) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b -3 + c -3) - a -4(b -4 + c -4)
+Trilinears(X697) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b -3 + c -3) - a -4(b -4 + c -4)]
+Trilinears(X698) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b -2 + c -2) - a -3(b -4 + c -4)
+Trilinears(X699) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b -2 + c -2) - a -3(b -4 + c -4)]
+Trilinears(X700) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b -1 + c -1) - a -2(b -4 + c -4)
+Trilinears(X701) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b -1 + c -1) - a -2(b -4 + c -4)]
+Trilinears(X702) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b0 + c0) - a -1(b -4 + c -4)
+Trilinears(X703) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b0 + c0) - a -1(b -4 + c -4)]
+Trilinears(X704) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b1 + c1) - a0(b -4 + c -4)
+Trilinears(X705) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b1 + c1) - a0(b -4 + c -4)]
+Trilinears(X706) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b2 + c2) - a1(b -4 + c -4)
+Trilinears(X707) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b2 + c2) - a1(b -4 + c -4)]
+Trilinears(X708) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b3 + c3) - a2(b -4 + c -4)
+Trilinears(X709) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b3 + c3) - a2(b -4 + c -4)]
+Trilinears(X710) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b4 + c4) - a3(b -4 + c -4)
+Trilinears(X711) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b4 + c4) - a3(b -4 + c -4)]
+Trilinears(X712) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b -2 + c -2) - a -3(b -3 + c -3)
+Trilinears(X713) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b -2 + c -2) - a -3(b -3 + c -3)]
+Trilinears(X714) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b -1 + c -1) - a -2(b -3 + c -3)
+Trilinears(X715) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b -1 + c -1) - a -2(b -3 + c -3)]
+Trilinears(X716) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b0 + c0) - a -1(b -3 + c -3)
+Trilinears(X717) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b0 + c0) - a -1(b -3 + c -3)]
+Trilinears(X718) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b1 + c1) - a0(b -3 + c -3)
+Trilinears(X719) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b1 + c1) - a0(b -3 + c -3)]
+Trilinears(X720) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b2 + c2) - a1(b -3 + c -3)
+Trilinears(X721) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b2 + c2) - a1(b -3 + c -3)]
+Trilinears(X722) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b3 + c3) - a2(b -3 + c -3)
+Trilinears(X723) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b3 + c3) - a2(b -3 + c -3)]
+Trilinears(X724) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b4 + c4) - a3(b -3 + c -3)
+Trilinears(X725) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b4 + c4) - a3(b -3 + c -3)]
+Trilinears(X726) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b -1 + c -1) - a -2(b -2 + c -2)
+Trilinears(X727) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b -1 + c -1) - a -2(b -2 + c -2)]
+Trilinears(X728) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a)3
+Trilinears(X729) = 1/[a-3(b0 + c0) - a -1(b-2 + c -2)]
+Trilinears(X730) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b1 + c1) - a0(b -2 + c -2)
+Trilinears(X731) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b1 + c1) - a0(b -2 + c -2)]
+Trilinears(X732) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b2 + c2) - a1(b -2 + c -2)
+Trilinears(X733) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a-3(b2 + c2) - a1(b-2 + c -2)]
+Trilinears(X734) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b3 + c3) - a2(b -2 + c -2)
+Trilinears(X735) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b3 + c3) - a2(b -2 + c -2)]
+Trilinears(X736) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b4 + c4) - a3(b -2 + c -2)
+Trilinears(X737) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b4 + c4) - a3(b -2 + c -2)]
+Trilinears(X738) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = (b + c - a) -3
+Trilinears(X739) = 1/[a-2(b0 + c0) - a -1(b -1 + c -1)] : :
+Trilinears(X740) = a -2(b1 + c1) - a0(b -1 + c -1) : :
+Trilinears(X741) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b1 + c1) - a0(b -1 + c -1)]
+Trilinears(X742) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b2 + c2) - a1(b -1 + c -1)
+Trilinears(X743) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b2 + c2) - a1(b -1 + c -1)]
+Trilinears(X744) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b3 + c3) - a2(b -1 + c -1)
+Trilinears(X745) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b3 + c3) - a2(b -1 + c -1)]
+Trilinears(X746) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b4 + c4) - a3(b -1 + c -1)
+Trilinears(X747) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b4 + c4) - a3(b -1 + c -1)]
+Trilinears(X748) = a2 - 2bc : b2 - 2ca : c2 - 2ab
+Trilinears(X749) = 1/(a2 - 2bc) : 1/(b2 - 2ca) : 1/(c2 - 2ab)
+Trilinears(X750) = a2 + 2bc : b2 + 2ca : c2 + 2ab
+Trilinears(X751) = 1/(a2 + 2bc) : 1/(b2 + 2ca) : 1/(c2 + 2ab)
+Trilinears(X752) = a -1(b3 + c3) - a2(b0 + c0) : :
+Trilinears(X753) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -1(b3 + c3) - a2(b0 + c0)]
+Trilinears(X754) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -1(b4 + c4) - a3(b0 + c0)
+Trilinears(X755) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -1(b4 + c4) - a3(b0 + c0)]
+Trilinears(X756) = (b + c)2 : (c + a)2 : (a + b)2
+Trilinears(X757) = (b + c) -2 : (c + a) -2 : (a + b) -2
+Trilinears(X758) = a0(b3 + c3) - a2(b1 + c1)
+Trilinears(X759) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a0(b3 + c3) - a2(b1 + c1)]
+Trilinears(X760) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a0(b4 + c4) - a3(b1 + c1)
+Trilinears(X761) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a0(b4 + c4) - a3(b1 + c1)]
+Trilinears(X762) = (b + c)3 : (c + a)3 : (a + b)3
+Trilinears(X763) = (b + c) -3 : (c + a) -3 : (a + b) -3
+Trilinears(X764) = (b - c)3 : (c - a)3 : (a - b)3
+Trilinears(X765) = (b - c) -2 : (c - a) -2 : (a - b) -2
+Trilinears(X766) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a2(b4 + c4) - a3(b3 + c3)
+Trilinears(X767) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a2(b4 + c4) - a3(b3 + c3)]
+Trilinears(X768) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b -3 - c -3) + a -4(b -4 - c -4)
+Trilinears(X769) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b -3 - c -3) + a -4(b -4 - c -4)]
+Trilinears(X770) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = cos3B - cos3C
+Trilinears(X771) = 1/(cos3B - cos3C) : :
+Trilinears(X772) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b -1 - c -1) + a -2(b -4 - c -4)
+Trilinears(X773) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b -1 - c -1) + a -2(b -4 - c -4)]
+Trilinears(X774) = cos2B + cos2C : :
+Trilinears(X775) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/[cos2B + cos2C]
+Trilinears(X776) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b1 - c1) + a0(b -4 - c -4)
+Trilinears(X777) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b1 - c1) + a0(b -4 - c -4)]
+Trilinears(X778) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b2 - c2) + a1(b -4 - c -4)
+Trilinears(X779) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b2 - c2) + a1(b -4 - c -4)]
+Trilinears(X780) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b3 - c3) + a2(b -4 - c -4)
+Trilinears(X781) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b3 - c3) + a2(b -4 - c -4)]
+Trilinears(X782) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -5(b4 - c4) + a3(b -4 - c -4)
+Trilinears(X783) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -5(b4 - c4) + a3(b -4 - c -4)]
+Trilinears(X784) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b -2 - c -2) + a -3(b -3 - c -3)
+Trilinears(X785) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b -2 - c -2) + a -3(b -3 - c -3)]
+Trilinears(X786) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b -1 - c -1) + a -2(b -3 - c -3)
+Trilinears(X787) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b -1 - c -1) + a -2(b -3 - c -3)]
+Trilinears(X788) = a2(b3 - c3) : :
+Trilinears(X789) = a - 2/(b3 - c3) : :
+Trilinears(X790) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b1 - c1) + a0(b -3 - c -3)
+Trilinears(X791) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b1 - c1) + a0(b -3 - c -3)]
+Trilinears(X792) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b2 - c2) + a1(b -3 - c -3)
+Trilinears(X793) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b2 - c2) + a1(b -3 - c -3)]
+Trilinears(X794) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b3 - c3) + a2(b -3 - c -3)
+Trilinears(X795) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b3 - c3) + a2(b -3 - c -3)]
+Trilinears(X796) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -4(b4 - c4) + a3(b -3 - c -3)
+Trilinears(X797) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -4(b4 - c4) + a3(b -3 - c -3)]
+Trilinears(X798) = a2(b2 - c2) : :
+Trilinears(X799) = csc2A/(cos2B - cos2C) : :
+Trilinears(X800) = sin A (cos2B + cos2C) : :
+Trilinears(X801) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = (csc A)/(cos2B + cos2C)
+Trilinears(X802) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b1 - c1) + a0(b -2 - c -2)
+Trilinears(X803) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b1 - c1) + a0(b -2 - c -2)]
+Trilinears(X804) = a -3(b2 - c2) + a1(b -2 - c -2) : :
+Trilinears(X805) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b2 - c2) + a1(b -2 - c -2)]
+Trilinears(X806) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b3 - c3) + a2(b -2 - c -2)
+Trilinears(X807) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b3 - c3) + a2(b -2 - c -2)]
+Trilinears(X808) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -3(b4 - c4) + a3(b -2 - c -2)
+Trilinears(X809) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -3(b4 - c4) + a3(b -2 - c -2)]
+Trilinears(X810) = sin 2A (cos2B - cos2C) : :
+Trilinears(X811) = (csc 2A)/(cos2B - cos2C) : :
+Trilinears(X812) = a -2(b1 - c1) + a0(b -1 - c -1) : :
+Trilinears(X813) = 1/[a-2(b1 - c1) + a0(b-1 - c -1)] : :
+Trilinears(X814) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b2 - c2) + a1(b -1 - c -1)
+Trilinears(X815) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b2 - c2) + a1(b -1 - c -1)]
+Trilinears(X816) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b3 - c3) + a2(b -1 - c -1)
+Trilinears(X817) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b3 - c3) + a2(b -1 - c -1)]
+Trilinears(X818) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -2(b4 - c4) + a3(b -1 - c -1)
+Trilinears(X819) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a -2(b4 - c4) + a3(b -1 - c -1)]
+Trilinears(X820) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = cos2A (cos2B + cos2C)
+Trilinears(X821) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec2A /(cos2B + cos2C)
+Trilinears(X822) = sec2B - sec2C : :
+Trilinears(X823) = 1/(sec2B - sec2C) : :
+Trilinears(X824) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a -1(b3 - c3) + a2(b0 - c0)
+Trilinears(X825) = 1/[a-1(b3 - c3) + a2(b0 - c0)] : :
+Trilinears(X826) = a -1(b4 - c4) + a3(b0 - c0) : :
+Trilinears(X827) = 1/[a-1(b4 - c4) + a3(b0 - c0)] : :
+Trilinears(X828) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin C sec2B + sin B sec2C
+Trilinears(X829) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/(sin C sec2B + sin B sec2C)
+Trilinears(X830) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a0(b3 - c3) + a2(b1 - c1)
+Trilinears(X831) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a0(b3 - c3) + a2(b1 - c1)]
+Trilinears(X832) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a0(b4 - c4) + a3(b1 - c1)
+Trilinears(X833) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a0(b4 - c4) + a3(b1 - c1)]
+Trilinears(X834) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a1(b3 - c3) + a2(b2 - c2)
+Trilinears(X835) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a1(b3 - c3) + a2(b2 - c2)]
+Trilinears(X836) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sin B sec2B + sin C sec2C
+Trilinears(X837) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = 1/(sin B sec2B + sin C sec2C)
+Trilinears(X838) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a2(b4 - c4) + a3(b3 - c3)
+Trilinears(X839) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a2(b4 - c4) + a3(b3 - c3)]
+Trilinears(X840) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a/(2ax - by - cz), x = x(A,B,C) = 1 - cos(B - C)
+Trilinears(X841) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a/(2ax - by - cz), x = x(A,B,C) = 1/(cos A - 2 cos B cos C)
+Trilinears(X842) = a/(2ax - by - cz) : :, where x = x(A,B,C) = sec(A + &omega)
+Trilinears(X843) = a/(2ax - by - cz) : : , where x = x(a,b,c) = bc/(b2 - c2)
+Trilinears(X844) = - x + y + z : : , where x = x(A,B,C) = sin(A/2) sec2(A/2)
+Trilinears(X845) = - x + y + z : : , where x = x(A,B,C) = sin2(A/2) sec(A/2)
+Trilinears(X846) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = - a2 + b2 + c2 + bc + ca + ab
+Trilinears(X847) = sec A sec 2A : sec B sec 2B : sec C sec 2C
+Trilinears(X848) = (csc A)/(cot A - cot A') : : , where A' = 2&pia/(a + b + c)
+Trilinears(X849) = [a/(b + c)]2 : [b/(c + a)]2 : [c/(a + b)]2
+Trilinears(X850) = (b2 - c2)/a3 : :
+Trilinears(X851) = sin 2B sin(C - A) + sin 2C sin(B - A) : :
+Trilinears(X852) = f(A,B,C) : f(B,C,A) : f(C,A,B), where f(A,B,C) = sec C sin 2B sin(C - A) + sec B sin 2C sin(B - A)
+Trilinears(X853) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = sec2(C/2) sin 2B sin(C - A) + sec2(B/2) sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X854) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = csc2(C/2) sin 2B sin(C - A) + csc2(B/2) sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X855) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = cot(C/2) sin 2B sin(C - A) + cot(B/2) sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X856) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = tan C sin 2B sin(C - A) + tan B sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X857) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = sin2C sin 2B sin(C - A) + sin2B sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X858) = sin3C sin 2B sin(C - A) + sin3B sin 2C sin(B - A) : :
+Trilinears(X859) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = (sin A + sin B) sin 2B sin(C - A) + (sin A + sin C) sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)</p>
+Trilinears(X860) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = (tan A + tan B) sin 2B sin(C - A) + (tan A + tan C) sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X861) = f(A,B,C) : f(B,C,A) : f(C,A,B),
+Trilinears(X862) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = cot C sin 2B sin(C - A) + cot B sin 2C sin(B - A)<br>Trilinears g(a,b,c) : g(b,c,a) : g(c,a,b),<br>where g(a,b,c) = (a2 - bc)(b + c)/(b2 + c2 - a2) (M. Iliev, 5/13/07)
+Trilinears(X863) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = csc2C sin 2B sin(C - A) + csc2B sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)</p>
+Trilinears(X864) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = csc3C sin 2B sin(C - A) + csc3B sin 2C sin(B - A)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X865) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = sin 2B csc2C sin(C - A) csc(A - B) - sin 2C csc2B sin(B - A) csc(A - C)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X866) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = sin 2B sin(A - C)/(sin A - sin B) - sin 2C sin(A - B)/(sin A - sin C)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)</p>
+Trilinears(X867) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = sin C sin 2B sin(A - C)/(sin A - sin B) - sin B sin 2C sin(A - B)/(sin A - sin C)<br>Barycentricsg(A,B,C) : g(B,C,A) : g(C,A,B), where g(A,B,C) = (sin A)f(A,B,C)
+Trilinears(X868) = sin 2B sin(A - C) csc(A - B) - sin 2C sin(A - B) csc(A - C) : :
+Trilinears(X869) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a2(b2 + c2 + bc)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X870) = 1/[a2(b2 + c2 + bc)] : :
+Trilinears(X871) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a4(b2 + c2 + bc)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X872) = [a(b + c)]2 : :
+Trilinears(X873) = [a(b + c)] -2 : :
+Trilinears(X874) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = (a2u2 - bcvw)/[a2u(bv - cw)], u : v : w = X(1)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X875) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a2u(bv - cw)/(a2u2 - bcvw), u : v : w = X(1)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X876) = u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(1)
+Trilinears(X877) = (a2u2 - bcvw)/[a2u(bv - cw)], where u : v : w = X(4)
+Trilinears(X878) = a2u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(4)
+Trilinears(X879) = u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(4)
+Trilinears(X880) = (a2u2 - bcvw)/[a2u(bv - cw)]: :, where u : v : w = X(6)
+Trilinears(X881) = a2u(bv - cw)/(a2u2 - bcvw), where u : v : w = X(6)
+Trilinears(X882) = u(bv - cw)/(a2u2 - bcvw) : :, where u : v : w = X(6)
+Trilinears(X883) = (a2u2 - bcvw)/[a2u(bv - cw)] : : , where u : v : w = X(7)
+Trilinears(X884) = a2u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(7)
+Trilinears(X885) = u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(7)
+Trilinears(X886) = (a2u2 - bcvw)/[a2u(bv - cw)] : : , where u : v : w = X(512)
+Trilinears(X887) = a2u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(512)
+Trilinears(X888) = u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(512)
+Trilinears(X889) = (a2u2 - bcvw)/[a2u(bv - cw)] : : , where u : v : w = X(513)
+Trilinears(X890) = a2u(bv - cw)/(a2u2 - bcvw) : : , where u : v : w = X(513)
+Trilinears(X891) = u(bv - cw)/(a2u2 - bcvw) : :, where u : v : w = X(513)
+Trilinears(X892) = (a2u2 - bcvw)/[a2u(bv - cw)] : : , where u : v : w = X(523)
+Trilinears(X893) = a/(a2 + bc) : :
+Trilinears(X894) = (a2 + bc)/a : :
+Trilinears(X895) = a(b2 + c2 - a2)/(b2 + c2 - 2a2) : :
+Trilinears(X896) = 2a2 - b2 - c2 : :
+Trilinears(X897) = 1/(2a2 - b2 - c2) : :
+Trilinears(X898) = 1/[(b - c)(2bc - ab - ac)] : : (M. Iliev, 5/13/07)
+Trilinears(X899) = 1/b + 1/c - 2/a : 1/c + 1/a - 2/b : 1/a + 1/b - 2/c (Joe Goggins, 2002)
+Trilinears(X900) = (b - c)(b + c - 2a)/a : :
+Trilinears(X901) = a/[(b - c)(b + c - 2a)] : :
+Trilinears(X902) = a(b + c - 2a) : b(c + a - 2b) : c(a + b - 2c) : :
+Trilinears(X903) = bc/(b + c - 2a) : ca/(c + a - 2b) : ab/(a + b - 2c) : :
+Trilinears(X904) = a2/(a2 + bc) : :
+Trilinears(X905) = (b - c)cot A: (c - a)cot B: (a - b)cot C
+Trilinears(X906) = (cos A)/[wb2 - vc2 + a(wb - vc)], u : v : w = X(3)
+Trilinears(X907) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[(b2 - c2)(3a2 + b2 + c2)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = a2/[(b2 - c2)(3a2 + b2 + c2)]
+Trilinears(X908) = [(wb + vc)/a - v - w]/a, where u : v : w = X(3)
+Trilinears(X909) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[(wb + vc)/a - v - w], u : v : w = X(3)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X910) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a[wb2 + vc2 - a(wb + vc)], u : v : w = X(3)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X911) = a/[wb2 + vc2 - a(wb + vc)] : : , where u : v : w = X(3)
+Trilinears(X912) = (a^2 - b^2 - c^2) (a^3 (b + c) - a^2 (b^2 + c^2) - a (b - c)^2 (b + c) + (b^2 - c^2)^2) : :
+Trilinears(X913) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[(wb + vc)/a - v - w], u : v : w = X(4)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X914) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = [(wb + vc)/a - v - w]/a, u : v : w = X(4)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X915) = (tan A)/(sin B (-1 + cos A + cos B) + sin C (-1 + cos A + cos C)) : :
+Trilinears(X916) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = wb2 + vc2 - a(wb + vc), u : v : w = X(4)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X917) = (sec A)/((a - b) sin 2B + (a - c) sin 2C) : :
+Trilinears(X918) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = (w/b - v/c)/a2, u : v : w = X(100)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = (b - c)(b2 + c2 -ab - ac)
+Trilinears(X919) = a2/(w/b - v/c) : : , where u : v : w = X(100)
+Trilinears(X920) = f(A,B,C) : f(B,C,A) : f(C,A,B),: where f(A,B,C) = cos2B + cos2C - cos2A\
+Trilinears(X921) = 1/(cos2B + cos2C - cos2A) : :
+Trilinears(X922) = a2(b2 + c2 - 2a2) (M. Iliev, 5/13/07)
+Trilinears(X923) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a2/(b2 + c2 - 2a2) (M. Iliev, 5/13/07)
+Trilinears(X924) = b cos(A - B) - c cos(A - C) : :
+Trilinears(X925) = (sin A)/(sec 2B - sec 2C) : :
+Trilinears(X926) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = bw - cv, u : v : w = X(7)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X927) = 1/(bw - cv) : : , where u : v : w = X(7)
+Trilinears(X928) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = bw - cv, u : v : w = X(11)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X929) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/(bw - cv), u : v : w = X(11)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X930) = 1/(bw - cv) : : , where u : v : w = X(17)
+Trilinears(X931) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/(bw - cv), u : v : w = X(21)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X932) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/(bw - cv), u : v : w = X(43)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X933) = 1/(bw - cv) : : , where u : v : w = X(54)
+Trilinears(X934) = 1/(bw - cv) : : , where u : v : w = X(57)
+Trilinears(X935) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/(bw - cv), u : v : w = X(67)
+Trilinears(X936) = a3 - a2(b + c) - a(b - c)2 + (b + c)3 : :
+Trilinears(X937) = 1/[a3 - a2(b + c) - a(b - c)2 + (b + c)3]
+Trilinears(X938) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = bc[a4 - 2a3(b + c) - 4a2bc + (b - c)(b2 - c2)(2a - b - c)]<br>Trilinears cos A' : :, where A' is the angle formed by the tangents from the A-excenter to the incircle
+Trilinears(X939) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[a4 - 2a3(b + c) - 4a2bc + (b - c)(b2 - c2)(2a - b - c)]<br>Trilinears sec A' : :, where A' is the angle formed by the tangents from the A-excenter to the incircle
+Trilinears(X940) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = a2 + a(b + c) + 2bc
+Trilinears(X941) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a2 + a(b + c) + 2bc]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X942) = 2abc + (b + c)(a - b + c)(a + b -c) : :
+Trilinears(X943) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[2abc + (b + c)(a - b + c)(a + b - c)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X944) = bc[3a4 - 2a3(b + c) + (b - c)2(2ab + 2ac - 2bc - b2 - c2 - 2a2)]
+Trilinears(X945) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[3a4 - 2a3(b + c) + (b - c)2(2ab + 2ac - 2bc - b2 - c2 - 2a2)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X946) = bc[a3(b + c) + (b - c)2(a2 - ab - ac - b2 - c2 - 2bc)] : :
+Trilinears(X947) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[a3(b + c) + (b - c)2(a2 - ab - ac - b2 - c2 - 2bc)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X948) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = bcvw[a3 - a2(b + c) + a(b + c)2 - (b - c)(b2 - c2)],<br>where u : v : w = X(9)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X949) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = au/[a3 - a2(b + c) + a(b + c)2 - (b - c)(b2 - c2)],<br>where u : v : w = X(9)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X950) = bc(b + c - a)[2a3 + (b + c)(a2 + (b - c)2)] : :
+Trilinears(X951) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[(b + c - a)[2a3 + (b + c)(a2 + (b - c)2)]]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X952) = bc[2a4 - 2a3(b + c) - a2(b2 - 4bc + c2) + (2a - b - c)(b - c)(b2 - c2)] : :
+Trilinears(X953) = a/[2a4 - 2a3(b + c) - a2(b2 - 4bc + c2) + (2a - b - c)(b - c)(b2 - c2)] : :
+Trilinears(X954) = a5 + (b + c)[2a2(b2 + c2 - a2 + bc) - (b - c)2(2bc + ab + ac)] : :
+Trilinears(X955) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a5 + (b + c)[2a2(b2 + c2 - a2 + bc) - (b - c)2(2bc + ab + ac)]]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X956) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 - a(b - c)2 - 2bc(b + c)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X957) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a3 - a(b - c)2 - 2bc(b + c)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X958) = (b + c - a)(a2 + ab + ac + 2bc) : :
+Trilinears(X959) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[(b + c - a)(a2 + ab + ac + 2bc)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X960) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = (b + c - a)(b2 + c2 + ab + ac)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X961) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[(b + c - a)(b2 + c2 + ab + ac)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X962) = bc[a4 + 2a3(b + c) - 4a2bc - (b + c)(b - c)2(2a + b + c)] : :
+Trilinears(X963) = a/[a4 + 2a3(b + c) - 4a2bc - (b + c)(b - c)2(2a + b + c)] : :
+Trilinears(X964) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = bc[a4 + (b + c)(a3 + ab2 + ac2 + abc + (b + c)(a2 + bc))]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X965) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a4 - a3(b + c) - a2(b2 + c2) + a(b + c)3 + 2bc(b + c)2<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X966) = bc[a2 - 2a(b + c) - (b + c)2] : :
+Trilinears(X967) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a/[a2 - 2a(b + c) - (b + c)2]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X968) = a2 - 2a(b + c) - (b + c)2 : :
+Trilinears(X969) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a2 - 2a(b + c) - (b + c)2]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X970) = a[a3(b + c)2 + a(ab + ac - 2bc)(b2 + c2) - bc(b3 + c3) - a(b4 + c4) - (b5 + c5)] : :
+Trilinears(X971) = a4(b + c) - 2a3(b2 + c2 - bc) + 2a(b - c)2(b2 + c2 + bc) - (b - c)2(b + c)3 : :
+Trilinears(X972) = 1/[a4(b + c) - 2a3(b2 + c2 - bc) + 2a(b - c)2(b2 + c2 + bc) - (b - c)2(b + c)3] : :
+Trilinears(X973) = u[a10 - 3a8s + a6(2b4 + 3b2c2 + 2c4) + a4s(2b4 - b2c2 + 2c4) - a2(b2 - c2)2(3b4 + 5b2c2 + s(b2 - c2)2(b4 - b2c2 + c4)] : : ,
+Trilinears(X974) = [sa10 - a8(3b4 - 2b2c2 + 3c4) + a6s(2b4 - 3b2c2 + 2c4) + a4(b2 - c2)2(2b4 - 7b2c2 + 2c4) - 3a2s(b2 - c2)2(b4 - 3b2c2 + c4) + (b2 - c2)4(b4 + b2c2 + c4)] cos A, where s = b2 + c2
+Trilinears(X975) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 + a2(b + c) + a(b2 + c2 + 4bc) + (b + c)3<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X976) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 + (b + c)(b2 + c2)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X977) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a3 + (b + c)(b2 + c2)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X978) = a2(b + c) + a(b2 - bc + c2) - bc(b + c) : :
+Trilinears(X979) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a2(b + c) + a(b2 - bc + c2) - bc(b + c)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X980) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a2(b2 + bc + c2) + (b2 + c2)(bc + ca + ab)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X981) = 1/[a2(b2 + bc + c2) + (b2 + c2)(bc + ca + ab)] : :
+Trilinears(X982) = f(a,b,c) : f(b,c,a) : f(c,a,b),: wheref(a,b,c) = b2 - bc + c2<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c)= af(a,b,c)
+Trilinears(X983) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[b2 - bc + c2]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X984) = b2 + bc + c2 : :
+Trilinears(X985) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[b2 + bc + c2]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X986) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a(b2 + bc + c2) + b3 + c3<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X987) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a(b2 + bc + c2) + b3 + c3]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X988) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 - a2(b + c) - (3a + b + c)(b2 + c2)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X989) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a3 - a2(b + c) - (3a + b + c)(b2 + c2)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X990) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a5 - a4(b + c) - 2a3bc - a(b - c)2(b2 + c2) + (b - c)2(b + c)3<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X991) = a[a3(b + c) - a2(b2 - bc + c2) - a(b + c)(b2 + c2) + (b - c)(b3 - c3)] : :
+Trilinears(X992) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3(b + c) + a2(b2 + c2) - abc(b + c) - bc(b + c)2<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X993) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 - a(b2 + c2) - bc(b + c)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X994) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = 1/[a3 - a(b2 + c2) - bc(b + c)]<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X995) = a(ab + ac - bc + b2 + c2) : :</p>
+Trilinears(X996) = 1/[a(ab + ac - bc + b2 + c2)] : :
+Trilinears(X997) = f(a,b,c) : f(b,c,a) : f(c,a,b),: where f(a,b,c) = a3 - a2(b + c) - a(b - c)2 + (b + c)(b2 + c2)<br>Barycentricsg(a,b,c) : g(b,c,a) : g(c,a,b), where g(a,b,c) = af(a,b,c)
+Trilinears(X998) = f(a,b,c) : f(b,c,a) : f(c,a,b), where f(a,b,c) = 1/[a3 - a2(b + c) - a(b - c)2 + (b + c)(b2 + c2)]
+Trilinears(X999) = 2 - cos A : 2 - cos B : 2 - cos C (Joe Goggins, 2002)
+Trilinears(X1000) = 1/[a(a2 + 4bc - b2 - c2)] : :

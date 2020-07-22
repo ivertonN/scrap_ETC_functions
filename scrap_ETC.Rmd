@@ -1,0 +1,66 @@
+---
+title: "scrap ETC"
+author: "Iverton Darlan"
+date: "19/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+Alterar arquivo html para inserir <span id="X(n)"></span> nas equações
+```{r}
+file_html <- read_file("data/ETC_part1.html")
+file_html_span_inserted <- file_html %>%
+  str_replace_all(
+    "<h3 id=\"(X[:digit:]+)[^\"]*\"(.+(.+\\r\\n)?(.+\\r\\n)?.*)<\\/h3>", 
+                  '<h3 id="\\1"\\2</h3>\r\n<span id="\\1">\r\n') %>%
+  str_replace_all("\\r\\n", "Pula_Linha") %>%
+  str_replace_all("&nbsp", "Espaco_Branco") %>%
+  str_replace_all("<span id(.+?)((<b>|<p>))",
+                  "<span id\\1</span>Pula_Linha\\2")
+
+
+formulas_Xn <- file_html_span_inserted %>%
+  str_extract_all("<span id(.+?)<\\/span>")
+
+#Como mostrado abaixo 999 dos 1000 Xn possuem a formula da trilinear
+number_of_trilinears <- formulas_Xn %>%
+  first() %>%
+  str_subset("Trilinears", negate = F) %>%
+  length
+#Apenas os Xn que possuem trilineares
+formulas_Xn_contain_trilinears <- formulas_Xn %>% 
+  map(. %>%str_subset("Trilinears", negate = F))
+```
+
+Txt dos Xn que contem trilineares
+```{r}
+init_time <- Sys.time()
+
+formulas_Xn_contain_trilinears %>%
+  first() %>%
+  str_replace("<span id=\"(X[:digit:]+).+?Trilinears(.+?:)",
+              "Trilinears(\\1) = \\2") %>%
+  str_extract(".+?:") %>%
+  str_remove_all(fixed("Espaco_Branco")) %>%
+  str_remove_all(fixed(";")) %>%
+  str_remove_all(fixed("Pula_Linha")) %>%
+  str_remove_all("<\\/?sup>") %>%
+  str_remove(fixed(":")) %>%
+  #str_squish() %>%
+  write_lines("data/Trilinears.txt")
+
+end_time <- Sys.time()
+execution_time <- end_time - init_time
+```
+Será necessario Pegar apenas os trilineares que nao contem where(ou seja, formados apenas de a,b,c)
+```{r}
+formulas_Xn_contain_trilinears
+```
+
